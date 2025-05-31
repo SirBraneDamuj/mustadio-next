@@ -1,9 +1,9 @@
 export default async function Page({
   params,
 }: {
-  params: { tournamentId: string; teamOne: string; teamTwo: string };
+  params: Promise<{ tournamentId: string; teamOne: string; teamTwo: string }>;
 }) {
-  const { tournamentId, teamOne, teamTwo } = params;
+  const { tournamentId, teamOne, teamTwo } = await params;
 
   return (
     <div>
