@@ -1,0 +1,92 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Tournament {
+  id        String             @id
+  teams     Team[]
+  maps      TournamentMap[]
+  winners   TournamentWinner[]
+  createdAt DateTime           @default(now()) @map("created_at")
+  updatedAt DateTime           @updatedAt @map("updated_at")
+
+  @@map("tournament")
+}
+
+model Team {
+  id           Int        @id @default(autoincrement())
+  name         String
+  tournament   Tournament @relation(fields: [tournamentId], references: [id])
+  tournamentId String     @map("tournament_id")
+  units        Unit[]
+
+  @@map("team")
+}
+
+model TournamentMap {
+  id           Int        @id @default(autoincrement())
+  number       String
+  title        String
+  order        Int
+  tournament   Tournament @relation(fields: [tournamentId], references: [id])
+  tournamentId String     @map("tournament_id")
+
+  @@map("tournament_map")
+}
+
+model TournamentWinner {
+  id           Int        @id @default(autoincrement())
+  name         String
+  matchNum     Int        @map("match_num")
+  tournament   Tournament @relation(fields: [tournamentId], references: [id])
+  tournamentId String     @map("tournament_id")
+
+  @@map("tournament_winner")
+}
+
+model Unit {
+  id           Int             @id @default(autoincrement())
+  name         String
+  gender       String
+  zodiac       String
+  brave        String
+  faith        String
+  class        String
+  subSkill     String?         @map("sub_skill")
+  reactSkill   String?         @map("react_skill")
+  supportSkill String?         @map("support_skill")
+  moveSkill    String?         @map("move_skill")
+  order        Int
+  team         Team            @relation(fields: [teamId], references: [id])
+  teamId       Int             @map("team_id")
+  teamName     String          @map("team_name")
+  raw          String
+  abilities    UnitAbility[]
+  equipment    UnitEquipment[]
+
+  @@map("unit")
+}
+
+model UnitAbility {
+  id        Int    @id @default(autoincrement())
+  name      String
+  mainOrSub String @map("main_or_sub")
+  unit      Unit   @relation(fields: [unitId], references: [id])
+  unitId    Int    @map("unit_id")
+
+  @@map("unit_ability")
+}
+
+model UnitEquipment {
+  id     Int    @id @default(autoincrement())
+  name   String
+  unit   Unit   @relation(fields: [unitId], references: [id])
+  unitId Int    @map("unit_id")
+
+  @@map("unit_equipment")
+}
