@@ -224,10 +224,10 @@ export type Unit = {
   brave: string;
   faith: string;
   class: string;
-  subSkill?: string;
-  reactSkill?: string;
-  supportSkill?: string;
-  moveSkill?: string;
+  subSkill: string | null;
+  reactSkill: string | null;
+  supportSkill: string | null;
+  moveSkill: string | null;
   order: number;
   teamName: TeamName;
   mainAbilities: string[];

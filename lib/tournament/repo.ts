@@ -41,18 +41,11 @@ export async function getTournamentById(
           teamName,
           mainAbilities: unit.abilities
             .filter((ability) => ability.mainOrSub === "main")
-            .map(({ name }) => ({ name })),
+            .map(({ name }) => name),
           subAbilities: unit.abilities
             .filter((ability) => ability.mainOrSub === "sub")
-            .map(({ name }) => ({ name })),
-          equipment: (unit.equipment || []).map((equip) => ({
-            ...equip,
-            // TODO: actually get these
-            slot: "head",
-            type: "Helmet",
-            // slot: EquipmentSlotSchema.parse(equip.slot),
-            // type: EquipmentTypeSchema.parse(equip.type),
-          })),
+            .map(({ name }) => name),
+          equipment: (unit.equipment || []).map(({ name }) => name),
         })),
       };
     }),
@@ -70,11 +63,11 @@ export async function insertTournament(tournament: Tournament): Promise<void> {
             create: team.units.map((unit) => {
               const abilities = [
                 ...unit.mainAbilities.map((ability) => ({
-                  name: ability.name,
+                  name: ability,
                   mainOrSub: "main" as const,
                 })),
                 ...unit.subAbilities.map((ability) => ({
-                  name: ability.name,
+                  name: ability,
                   mainOrSub: "sub" as const,
                 })),
               ];
@@ -86,7 +79,7 @@ export async function insertTournament(tournament: Tournament): Promise<void> {
                 },
                 equipment: {
                   create: unit.equipment.map((equip) => ({
-                    name: equip.name,
+                    name: equip,
                   })),
                 },
               };
