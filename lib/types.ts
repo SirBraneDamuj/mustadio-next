@@ -101,7 +101,7 @@ export const TEAM_NAMES = [
 export const TeamNameSchema = z.enum(TEAM_NAMES);
 export type TeamName = z.infer<typeof TeamNameSchema>;
 
-export const MATCHUPS = [
+export const MATCHUPS: [TeamName, TeamName][][] = [
   // ROUND 1
   [[TEAM_NAMES[0], TEAM_NAMES[1]]],
   [[TEAM_NAMES[2], TEAM_NAMES[3]]],

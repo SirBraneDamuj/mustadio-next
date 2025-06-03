@@ -32,3 +32,15 @@ export function groupBy<T, K extends string | number | symbol>(
     {} as Record<K, T[]>
   );
 }
+
+export function modalities<T extends string | number | symbol>(
+  items: T[]
+): Record<T, number> {
+  return items.reduce(
+    (acc, item) => {
+      acc[item] = (acc[item] || 0) + 1;
+      return acc;
+    },
+    {} as Record<T, number>
+  );
+}
