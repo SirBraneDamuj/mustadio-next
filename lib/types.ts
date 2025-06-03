@@ -297,3 +297,10 @@ export type MonsterSkills = {
     skills: string[];
   };
 };
+
+export type Statuses = {
+  [statusName: string]: {
+    name: string;
+    info: string;
+  };
+};

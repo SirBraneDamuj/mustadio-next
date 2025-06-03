@@ -1,0 +1,185 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parseStatuses > parses infostatus.txt correctly (snapshot) 1`] = `
+{
+  "Berserk": {
+    "info": "Unit can only move towards enemies and execute normal attacks, but receives a 50% damage boost.
+",
+    "name": "Berserk",
+  },
+  "Blood Suck": {
+    "info": "Counts as death. Unit walks to nearest unit and uses Blood Suck, draining life and chance to add this status to them, too.
+",
+    "name": "Blood Suck",
+  },
+  "Charging": {
+    "info": "Takes double damage from physical attacks.
+",
+    "name": "Charging",
+  },
+  "Charm": {
+    "info": "Unit thinks it is a member of the opposing team.
+",
+    "name": "Charm",
+  },
+  "Chicken": {
+    "info": "Automatically applied when Brave drops below 20. Runs away on every turn, gaining 1 Brave on every turn. Canceled when Unit gets back to 20 Brave.
+",
+    "name": "Chicken",
+  },
+  "Confusion": {
+    "info": "Unit does not know friend from foe, and does random actions on random targets.
+",
+    "name": "Confusion",
+  },
+  "Critical": {
+    "info": "Unit is near death, and will run away unless they're the last unit alive on their team.
+",
+    "name": "Critical",
+  },
+  "Crystal": {
+    "info": "Unable to be revived. When moved on, completely heals HP / MP, and removes unit from board.
+",
+    "name": "Crystal",
+  },
+  "Darkness": {
+    "info": "Lower accuracy of moves.
+",
+    "name": "Darkness",
+  },
+  "Dead": {
+    "info": "Unable to take action. Turns into Crystal when three turns pass.
+",
+    "name": "Dead",
+  },
+  "Death Sentence": {
+    "info": "Unit dies in three turns.
+",
+    "name": "Death Sentence",
+  },
+  "Defending": {
+    "info": "Doubles evasion.
+",
+    "name": "Defending",
+  },
+  "Don't Act": {
+    "info": "Unit cannot act (but can move).
+",
+    "name": "Don't Act",
+  },
+  "Don't Move": {
+    "info": "Unit cannot move (but can act).
+",
+    "name": "Don't Move",
+  },
+  "Faith": {
+    "info": "Unit's effective Faith is 100.
+",
+    "name": "Faith",
+  },
+  "Float": {
+    "info": "Unit hovers 0.5h over the ground, allowing them to walk over tiles with no penalty. Also provides immunity to Earth.
+",
+    "name": "Float",
+  },
+  "Frog": {
+    "info": "Unit is a weak Frog. Frogs can only do weak attacks or cast Frog, if they have it.
+",
+    "name": "Frog",
+  },
+  "Haste": {
+    "info": "Double the unit's speed.
+",
+    "name": "Haste",
+  },
+  "Innocent": {
+    "info": "Unit's effective Faith is 0, which provides complete immunity to Faith-based Magic.
+",
+    "name": "Innocent",
+  },
+  "Jump": {
+    "info": "Cannot be affected by anything.
+",
+    "name": "Jump",
+  },
+  "Oil": {
+    "info": "Unit takes double damage from Fire attacks.
+",
+    "name": "Oil",
+  },
+  "Performing": {
+    "info": "Cannot evade.
+",
+    "name": "Performing",
+  },
+  "Petrify": {
+    "info": "Counts as death. Cannot do anything.
+",
+    "name": "Petrify",
+  },
+  "Poison": {
+    "info": "Unit takes 20% damage each turn.
+",
+    "name": "Poison",
+  },
+  "Protect": {
+    "info": "Reduces physical damage taken by a unit by a third.
+",
+    "name": "Protect",
+  },
+  "Quick": {
+    "info": "Sets CT to Max.",
+    "name": "Quick",
+  },
+  "Reflect": {
+    "info": "Reflects most spells to another panel.
+",
+    "name": "Reflect",
+  },
+  "Regen": {
+    "info": "Unit heals 20% health each turn.
+",
+    "name": "Regen",
+  },
+  "Reraise": {
+    "info": "When dead, cancels Dead on the unit's next turn.
+",
+    "name": "Reraise",
+  },
+  "Shell": {
+    "info": "Reduces magical damage taken by a unit by a third.
+",
+    "name": "Shell",
+  },
+  "Silence": {
+    "info": "Unit cannot cast most spells or other abilities relying on sound.
+",
+    "name": "Silence",
+  },
+  "Sleep": {
+    "info": "Freezes a unit's CT. Takes double damage from physical attacks.
+",
+    "name": "Sleep",
+  },
+  "Slow": {
+    "info": "Halve the unit's speed.
+",
+    "name": "Slow",
+  },
+  "Stop": {
+    "info": "Freezes a unit's CT. Unit cannot react.
+",
+    "name": "Stop",
+  },
+  "Transparent": {
+    "info": "Removes accuracy checks on physical attacks, guarenteeing a hit.
+",
+    "name": "Transparent",
+  },
+  "Undead": {
+    "info": "Most healing does damage instead. Instead of crystalizing after three turns when dead, has a 50% chance to revive.
+",
+    "name": "Undead",
+  },
+}
+`;
