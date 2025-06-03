@@ -9,6 +9,13 @@ export function parseIntOrThrow(
   return result;
 }
 
+export function toNumber(s: string | undefined | null): number {
+  if (!s) {
+    return 0;
+  }
+  return parseInt(s, 10);
+}
+
 export function groupBy<T, K extends string | number | symbol>(
   array: T[],
   keyFn: (item: T) => K
