@@ -185,6 +185,10 @@ export const actives = {
   Dancer: "Dance",
 };
 
+export const ABILITY_TYPES = ["active", "react", "support", "move"] as const;
+export const AbilityTypeSchema = z.enum(ABILITY_TYPES);
+export type AbilityType = z.infer<typeof AbilityTypeSchema>;
+
 // Tournament model
 export type Tournament = {
   id: string;
@@ -226,15 +230,17 @@ export type Unit = {
   moveSkill?: string;
   order: number;
   teamName: TeamName;
-  mainAbilities: UnitAbility[];
-  subAbilities: UnitAbility[];
-  equipment: UnitEquipment[];
+  mainAbilities: string[];
+  subAbilities: string[];
+  equipment: string[];
   raw: string;
 };
 
 // UnitAbility model
 export type UnitAbility = {
   name: string;
+  type: AbilityType;
+  info: string;
 };
 
 // UnitEquipment model

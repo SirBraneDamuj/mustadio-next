@@ -1,0 +1,2121 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parseAbilities > parses infoability.txt correctly (snapshot) 1`] = `
+{
+  "3": {
+    "info": "An algorithm for targeting units whose attribute is a multiple of 3.",
+    "name": "3",
+    "type": "active",
+  },
+  "4": {
+    "info": "An algorithm for targeting units whose attribute is a multiple of 4.",
+    "name": "4",
+    "type": "active",
+  },
+  "5": {
+    "info": "An algorithm for targeting units whose attribute is a multiple of 5.",
+    "name": "5",
+    "type": "active",
+  },
+  "Abandon": {
+    "info": "Reaction. Doubles all evasion.",
+    "name": "Abandon",
+    "type": "react",
+  },
+  "Absorb Used MP": {
+    "info": "Reaction. On hit by an ability using MP, gain MP equal to the MP spent.",
+    "name": "Absorb Used MP",
+    "type": "react",
+  },
+  "Accumulate": {
+    "info": "0 range, 0 AoE. Effect: +1 PA.",
+    "name": "Accumulate",
+    "type": "active",
+  },
+  "Angel Song": {
+    "info": "0 range, 255 AoE, 6 CT.  Effect: HealMP (20 + MA).",
+    "name": "Angel Song",
+    "type": "active",
+  },
+  "Antidote": {
+    "info": "Cancel Poison.",
+    "name": "Antidote",
+    "type": "active",
+  },
+  "Aqua Soul": {
+    "info": "3 range, 0 AoE. Element: Water. Effect: Damage (MA * 3).",
+    "name": "Aqua Soul",
+    "type": "active",
+  },
+  "Arm Aim": {
+    "info": "weapon range, 0 AoE. Hit: (Speed+ 38)%. Effect: Add Don't Act.",
+    "name": "Arm Aim",
+    "type": "active",
+  },
+  "Armor Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + WP + 40)%. Effect: Break target's body equipment. If none, attack instead.",
+    "name": "Armor Break",
+    "type": "active",
+  },
+  "Arrow Guard": {
+    "info": "Reaction. On attack by a bow or crossbow, negate that attack.",
+    "name": "Arrow Guard",
+    "type": "react",
+  },
+  "Asura": {
+    "info": "0 range, 2 AoE. Effect: Damage (MA * 8); Chance to Cancel Undead, Blood Suck, Float, Reraise, Transparent, Berserk, Regen, Protect, Shell, Haste, Faith, Innocent, Reflect.",
+    "name": "Asura",
+    "type": "active",
+  },
+  "Attack UP": {
+    "info": "Support. Increases physical damage by a third.",
+    "name": "Attack UP",
+    "type": "support",
+  },
+  "Auto Potion": {
+    "info": "Reaction. On damage, use a Potion (Heals 100 HP) on self.",
+    "name": "Auto Potion",
+    "type": "react",
+  },
+  "Axe": {
+    "info": "movement range, 0 AoE. Effect: Throw Axe Damage (Speed * ThrownWP).",
+    "name": "Axe",
+    "type": "active",
+  },
+  "Bad Breath": {
+    "info": "0 range, 2 AoE. Effect: Add Petrify, Darkness, Confusion, Silence, Oil, Frog, Poison, Sleep (Separate).",
+    "name": "Bad Breath",
+    "type": "active",
+  },
+  "Bahamut": {
+    "info": "4 range, 3 AoE, 10 CT, 60 MP. Element: Dark. Effect: Damage Faith(MA * 46).",
+    "name": "Bahamut",
+    "type": "active",
+  },
+  "Battle Song": {
+    "info": "0 range, 255 AoE, 8 CT.  Hit: 50% per target. Effect: +1 PA.",
+    "name": "Battle Song",
+    "type": "active",
+  },
+  "Beak": {
+    "info": "1 range, 0 AoE. Hit: (MA + 37)%. Effect: Add Petrify.",
+    "name": "Beak",
+    "type": "active",
+  },
+  "Beam": {
+    "info": "4 range, 0 AoE. Hit: (MA + 55)%. Effect: -2 MA.",
+    "name": "Beam",
+    "type": "active",
+  },
+  "Beastmaster": {
+    "info": "Support. Allows allied adjacent monsters to use their Hidden Ability.",
+    "name": "Beastmaster",
+    "type": "support",
+  },
+  "Bequeath Bacon": {
+    "info": "1 range, 0 AoE. Effect: Heal (CasterMaxHP * 2 / 5); DamageCaster (CasterMaxHP / 5).",
+    "name": "Bequeath Bacon",
+    "type": "active",
+  },
+  "Bio Immortuos": {
+    "info": "4 range, 2 AoE, 6 CT, 24 MP. Effect: Damage Faith(MA * 24); Chance to Add Undead.",
+    "name": "Bio Immortuos",
+    "type": "active",
+  },
+  "Bio Insanis": {
+    "info": "4 range, 2 AoE, 6 CT, 24 MP. Effect: Damage Faith(MA * 24); Chance to Add Confusion.",
+    "name": "Bio Insanis",
+    "type": "active",
+  },
+  "Bio Lapis": {
+    "info": "4 range, 1 AoE, 5 CT, 16 MP. Hit: Faith(MA + 110)% Effect: Add Petrify.",
+    "name": "Bio Lapis",
+    "type": "active",
+  },
+  "Bio Mortem": {
+    "info": "4 range, 2 AoE, 6 CT, 24 MP. Effect: Damage Faith(MA * 24); Chance to Add Death.",
+    "name": "Bio Mortem",
+    "type": "active",
+  },
+  "Bio Oleum": {
+    "info": "4 range, 1 AoE, 3 CT, 8 MP. Element: Earth. Effect: Damage Faith(MA * 12); Chance to Add Oil.",
+    "name": "Bio Oleum",
+    "type": "active",
+  },
+  "Bio Ranae": {
+    "info": "4 range, 1 AoE, 5 CT, 16 MP. Hit: Faith(MA + 110)% Effect: Add Frog.",
+    "name": "Bio Ranae",
+    "type": "active",
+  },
+  "Bio Sanctus": {
+    "info": "4 range, 1 AoE, 5 CT, 16 MP. Hit: Faith(MA + 110)% Effect: Add Slow.",
+    "name": "Bio Sanctus",
+    "type": "active",
+  },
+  "Bio Silentium": {
+    "info": "4 range, 1 AoE, 5 CT, 16 MP. Hit: Faith(MA + 120)% Effect: Add Silence.",
+    "name": "Bio Silentium",
+    "type": "active",
+  },
+  "Bio Tenebris": {
+    "info": "4 range, 1 AoE, 3 CT, 8 MP. Element: Wind. Effect: Damage Faith(MA * 12); Chance to Add Darkness.",
+    "name": "Bio Tenebris",
+    "type": "active",
+  },
+  "Bio Venenum": {
+    "info": "4 range, 1 AoE, 3 CT, 8 MP. Element: Water. Effect: Damage Faith(MA * 12); Chance to Add Poison.",
+    "name": "Bio Venenum",
+    "type": "active",
+  },
+  "Bite": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack; Chance to Add Oil.",
+    "name": "Bite",
+    "type": "active",
+  },
+  "Bizen Boat": {
+    "info": "0 range, 2 AoE. Effect: DamageMP (MA * 5).",
+    "name": "Bizen Boat",
+    "type": "active",
+  },
+  "Black Ink": {
+    "info": "2 range, 2 AoE (line). Hit: (MA + 50)%. Effect: Add Darkness, Oil (All).",
+    "name": "Black Ink",
+    "type": "active",
+  },
+  "Blade Beam": {
+    "info": "2 range, 0 AoE, 5 CT. Effect: Damage (CasterMaxHP - CasterCurrentHP).",
+    "name": "Blade Beam",
+    "type": "active",
+  },
+  "Blade Grasp": {
+    "info": "Reaction. On attack by a weapon or weapon ability, negate that attack.",
+    "name": "Blade Grasp",
+    "type": "react",
+  },
+  "Blaster": {
+    "info": "3 range, 0 AoE. Hit: (MA + 30)%. Effect: Add Petrify, Stop, Sleep (Random).",
+    "name": "Blaster",
+    "type": "active",
+  },
+  "Blind": {
+    "info": "5 range, 1 AoE, 2 CT, 4 MP. Hit: Faith(MA + 200)%. Effect: Add Blind.",
+    "name": "Blind",
+    "type": "active",
+  },
+  "Blind Rage": {
+    "info": "5 range, 0 AoE, 5 CT, 16 MP. Hit: Faith(MA + 120)%. Effect: Add Berserk.",
+    "name": "Blind Rage",
+    "type": "active",
+  },
+  "Blizzard": {
+    "info": "5 range, 1 AoE. Terrain: Snow, Ice. Element: Ice. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Silence.",
+    "name": "Blizzard",
+    "type": "active",
+  },
+  "Blood Suck": {
+    "info": "1 range, 0 AoE. Effect: AbsorbHP (25)%; Chance to Add Blood Suck.",
+    "name": "Blood Suck",
+    "type": "active",
+  },
+  "Blow Fire": {
+    "info": "2 range, 2 AoE (line). Element: Fire. Effect: Damage (MA * 4).",
+    "name": "Blow Fire",
+    "type": "active",
+  },
+  "Blue Magic": {
+    "info": "Allows a Calculator to equip Monster abilities as a secondary.",
+    "name": "Blue Magic",
+    "type": "active",
+  },
+  "Bolt": {
+    "info": "5 range, 1 AoE, 3 CT, 6 MP. Element: Lightning. Effect: Damage Faith(MA * 16).",
+    "name": "Bolt",
+    "type": "active",
+  },
+  "Bolt 2": {
+    "info": "5 range, 1 AoE, 4 CT, 12 MP. Element: Lightning. Effect: Damage Faith(MA * 20).",
+    "name": "Bolt 2",
+    "type": "active",
+  },
+  "Bolt 3": {
+    "info": "5 range, 1 AoE, 6 CT, 24 MP. Element: Lightning. Effect: Damage Faith(MA * 28).",
+    "name": "Bolt 3",
+    "type": "active",
+  },
+  "Bolt 4": {
+    "info": "5 range, 2 AoE, 8 CT, 48 MP. Element: Lightning. Effect: Damage Faith(MA * 36).",
+    "name": "Bolt 4",
+    "type": "active",
+  },
+  "Bomb": {
+    "info": "movement range, 0 AoE. Effect: Throw Bomb Damage (Speed * ThrownWP).",
+    "name": "Bomb",
+    "type": "active",
+  },
+  "Brave Up": {
+    "info": "Reaction. On damage, +3 Brave.",
+    "name": "Brave Up",
+    "type": "react",
+  },
+  "Braver": {
+    "info": "2 range, 0 AoE, 3 CT. Effect: Damage (MA * 12).",
+    "name": "Braver",
+    "type": "active",
+  },
+  "CT": {
+    "info": "Base math algorithm on the target's CT.",
+    "name": "CT",
+    "type": "active",
+  },
+  "Calm Spirit": {
+    "info": "0 range, 2 AoE. Hit: (MA + 45)%. Effect: Add Defending, Shell (All).",
+    "name": "Calm Spirit",
+    "type": "active",
+  },
+  "Carbunkle": {
+    "info": "4 range, 2 AoE, 7 CT, 30 MP. Hit: Faith(MA + 140)%. Effect: Cancel Death, Undead, Petrify, Blood Suck, Charm, Death Sentence; if successful Heal (25)%.",
+    "name": "Carbunkle",
+    "type": "active",
+  },
+  "Cat Kick": {
+    "info": "1 range, 0 AoE. Effect: Damage (Random(1-8) * PA); Chance to Knockback.",
+    "name": "Cat Kick",
+    "type": "active",
+  },
+  "Catch": {
+    "info": "Reaction. On hit by a Thrown weapon, negate that ability.",
+    "name": "Catch",
+    "type": "react",
+  },
+  "Caution": {
+    "info": "Reaction. On damage, Add Defending.",
+    "name": "Caution",
+    "type": "react",
+  },
+  "Chakra": {
+    "info": "0 range, 1 AoE. Effect: Heal (PA * 5); HealMP ((PA * 5) / 2).",
+    "name": "Chakra",
+    "type": "active",
+  },
+  "Charge+1": {
+    "info": "weapon range, 0 AoE, 4 CT. Effect: Normal Attack with +2 WP.",
+    "name": "Charge+1",
+    "type": "active",
+  },
+  "Charge+10": {
+    "info": "weapon range, 0 AoE, 20 CT. Effect: Normal Attack with +11 WP.",
+    "name": "Charge+10",
+    "type": "active",
+  },
+  "Charge+2": {
+    "info": "weapon range, 0 AoE, 5 CT. Effect: Normal Attack with +3 WP.",
+    "name": "Charge+2",
+    "type": "active",
+  },
+  "Charge+20": {
+    "info": "weapon range, 0 AoE, 35 CT. Effect: Normal Attack with +20 WP.",
+    "name": "Charge+20",
+    "type": "active",
+  },
+  "Charge+3": {
+    "info": "weapon range, 0 AoE, 6 CT. Effect: Normal Attack with +4 WP.",
+    "name": "Charge+3",
+    "type": "active",
+  },
+  "Charge+4": {
+    "info": "weapon range, 0 AoE, 8 CT. Effect: Normal Attack with +5 WP.",
+    "name": "Charge+4",
+    "type": "active",
+  },
+  "Charge+5": {
+    "info": "weapon range, 0 AoE, 10 CT. Effect: Normal Attack with +6 WP.",
+    "name": "Charge+5",
+    "type": "active",
+  },
+  "Charge+7": {
+    "info": "weapon range, 0 AoE, 14 CT. Effect: Normal Attack with +8 WP.",
+    "name": "Charge+7",
+    "type": "active",
+  },
+  "Cheer Song": {
+    "info": "0 range, 255 AoE, 7 CT.  Hit: 50% per target. Effect: +1 Speed.",
+    "name": "Cheer Song",
+    "type": "active",
+  },
+  "Cheer Up": {
+    "info": "3 range, 0 AoE. Hit: (MA + 85)%. Effect: Add Defending, Float, Reraise, Regen, Faith (Separate).",
+    "name": "Cheer Up",
+    "type": "active",
+  },
+  "Cherry Blossom": {
+    "info": "2 range, 2 AoE, 15 CT. Effect: Damage (MA * 60).",
+    "name": "Cherry Blossom",
+    "type": "active",
+  },
+  "Chicken": {
+    "info": "4 range, 0 AoE, 6 CT, 25 MP. Hit: Faith(MA + 200)%. Effect: -40 Brave.",
+    "name": "Chicken",
+    "type": "active",
+  },
+  "Chirijiraden": {
+    "info": "0 range, 2 AoE. Effect: Damage (MA * 18).",
+    "name": "Chirijiraden",
+    "type": "active",
+  },
+  "Choco Attack": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Choco Attack",
+    "type": "active",
+  },
+  "Choco Ball": {
+    "info": "4 range, 0 AoE. Element: Water. Effect: Damage (PA / 2 * PA).",
+    "name": "Choco Ball",
+    "type": "active",
+  },
+  "Choco Cure": {
+    "info": "0 range, 1 AoE. Effect: Heal (MA * 3).",
+    "name": "Choco Cure",
+    "type": "active",
+  },
+  "Choco Esuna": {
+    "info": "0 range, 1 AoE. Effect: Cancel Petrify, Darkness, Silence, Poison, Stop, Don't Move, Don't Act.",
+    "name": "Choco Esuna",
+    "type": "active",
+  },
+  "Choco Meteor": {
+    "info": "5 range, 0 AoE. Effect: Damage (MA * 4).",
+    "name": "Choco Meteor",
+    "type": "active",
+  },
+  "Climhazzard": {
+    "info": "2 range, 0 AoE, 6 CT. Effect: Damage (TargetMaxHP - TargetCurrentHP).",
+    "name": "Climhazzard",
+    "type": "active",
+  },
+  "Compress": {
+    "info": "2 range, 0 AoE. Effect: Damage (PA * 15); DamageCaster ((PA * 15) / 3).",
+    "name": "Compress",
+    "type": "active",
+  },
+  "Concentrate": {
+    "info": "Support. Unit bypasses accuracy and evasion checks, and is unable to miss.",
+    "name": "Concentrate",
+    "type": "support",
+  },
+  "Confusion Song": {
+    "info": "5 range, 0 AoE, 5 CT, 20 MP. Hit: Faith(MA + 130)%. Effect: Add Confusion.",
+    "name": "Confusion Song",
+    "type": "active",
+  },
+  "Counter": {
+    "info": "Reaction. On an attack, attack back if within weapon's range.",
+    "name": "Counter",
+    "type": "react",
+  },
+  "Counter Flood": {
+    "info": "Reaction. On an attack, use Elemental back at the attacker.",
+    "name": "Counter Flood",
+    "type": "react",
+  },
+  "Counter Magic": {
+    "info": "Reaction. On hit by offensive magic, cast that spell back at the attacker.",
+    "name": "Counter Magic",
+    "type": "react",
+  },
+  "Counter Tackle": {
+    "info": "Reaction. On attack from adjacent unit, use Dash back at the attacker.",
+    "name": "Counter Tackle",
+    "type": "react",
+  },
+  "Critical Quick": {
+    "info": "Reaction. On critical, set CT to Max.",
+    "name": "Critical Quick",
+    "type": "react",
+  },
+  "Cross-slash": {
+    "info": "2 range, 1 AoE, 4 CT. Effect: Damage (MA * 22).",
+    "name": "Cross-slash",
+    "type": "active",
+  },
+  "Cure": {
+    "info": "5 range, 1 AoE, 3 CT, 6 MP. Effect: Heal Faith(MA * 15).",
+    "name": "Cure",
+    "type": "active",
+  },
+  "Cure 2": {
+    "info": "5 range, 1 AoE, 4 CT, 10 MP. Effect: Heal Faith(MA * 20).",
+    "name": "Cure 2",
+    "type": "active",
+  },
+  "Cure 3": {
+    "info": "5 range, 1 AoE, 6 CT, 16 MP. Effect: Heal Faith(MA * 30).",
+    "name": "Cure 3",
+    "type": "active",
+  },
+  "Cure 4": {
+    "info": "5 range, 1 AoE, 8 CT, 24 MP. Effect: Heal Faith(MA * 40).",
+    "name": "Cure 4",
+    "type": "active",
+  },
+  "Cyclops": {
+    "info": "4 range, 2 AoE, 9 CT, 62 MP. Effect: Damage Faith(MA * 50).",
+    "name": "Cyclops",
+    "type": "active",
+  },
+  "Damage Split": {
+    "info": "Reaction. On damage, Heal half and do that amount back to the attacker.",
+    "name": "Damage Split",
+    "type": "react",
+  },
+  "Dark Holy": {
+    "info": "5 range, 0 AoE, 7 CT, 40 MP. Element: Dark. Effect: Damage Faith(MA * 37).",
+    "name": "Dark Holy",
+    "type": "active",
+  },
+  "Dark Sword": {
+    "info": "2 range, 0 AoE, 2 CT, 18 MP. Effect: AbsorbMP (PA * WP).",
+    "name": "Dark Sword",
+    "type": "active",
+  },
+  "Dark Whisper": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Dark. Hit: 6 times. Effect: Damage ((MA + 1) / 2 * MA); Chance to Add Death, Sleep (Separate).",
+    "name": "Dark Whisper",
+    "type": "active",
+  },
+  "Dash": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Dash",
+    "type": "active",
+  },
+  "Death": {
+    "info": "5 range, 0 AoE, 10 CT, 24 MP. Hit: Faith(MA + 100)%. Effect: Damage (100)%",
+    "name": "Death",
+    "type": "active",
+  },
+  "Death Sentence": {
+    "info": "4 range, 0 AoE. Hit: (MA + 32)%. Effect: Add Death Sentence.",
+    "name": "Death Sentence",
+    "type": "active",
+  },
+  "Defend": {
+    "info": "Support. Allows the unit to do a Defend action, boosting evasion.",
+    "name": "Defend",
+    "type": "support",
+  },
+  "Defense UP": {
+    "info": "Support. Decreases damage taken by physical attacks by a third.",
+    "name": "Defense UP",
+    "type": "support",
+  },
+  "Demi": {
+    "info": "5 range, 1 AoE, 6 CT, 24 MP. Hit: Faith(MA + 190)%. Effect: Damage (25)%.",
+    "name": "Demi",
+    "type": "active",
+  },
+  "Demi 2": {
+    "info": "5 range, 1 AoE, 9 CT, 50 MP. Hit: Faith(MA + 130)%. Effect: Damage (50)%.",
+    "name": "Demi 2",
+    "type": "active",
+  },
+  "Despair": {
+    "info": "4 range, 0 AoE, 2 CT, 13 MP. Hit: Faith(MA + 200)%. Effect: Cancel Float, Reraise, Transparent, Regen, Protect, Shell, Haste, Faith, Reflect.",
+    "name": "Despair",
+    "type": "active",
+  },
+  "Despair 2": {
+    "info": "4 range, 2 AoE, 5 CT, 26 MP. Hit: Faith(MA + 200)%. Effect: Cancel Float, Reraise, Transparent, Regen, Protect, Shell, Haste, Faith, Reflect.",
+    "name": "Despair 2",
+    "type": "active",
+  },
+  "Destroy": {
+    "info": "4 range, 0 AoE. Effect: Damage (PA * 10); DamageCaster ((PA * 10) / 4).",
+    "name": "Destroy",
+    "type": "active",
+  },
+  "Diamond Blade": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Wind. Hit: Random(1-9) times. Effect: Damage ((MA + 10) * MA / 2).",
+    "name": "Diamond Blade",
+    "type": "active",
+  },
+  "Dictionary": {
+    "info": "movement range, 0 AoE. Effect: Throw Book Damage (Speed * ThrownWP).",
+    "name": "Dictionary",
+    "type": "active",
+  },
+  "Disillusion": {
+    "info": "0 range, 255 AoE, 8 CT. Hit: 50% per target. Effect: -1 MA.",
+    "name": "Disillusion",
+    "type": "active",
+  },
+  "Dispel Magic": {
+    "info": "5 range, 0 AoE, 3 CT, 34 MP. Hit: Faith(MA + 200)%. Effect: Cancel Float, Reraise, Transparent, Regen, Protect, Shell, Haste, Faith, Reflect",
+    "name": "Dispel Magic",
+    "type": "active",
+  },
+  "Dispose": {
+    "info": "8 range, 0 AoE. Effect: Damage (PA * 5); DamageCaster ((PA * 5) / 5).",
+    "name": "Dispose",
+    "type": "active",
+  },
+  "Distribute": {
+    "info": "Reaction. On healing past Max HP, heal allies equal to the excess.",
+    "name": "Distribute",
+    "type": "react",
+  },
+  "Doom": {
+    "info": "3 range, 0 AoE. Hit: (MA + 40)%. Effect: Add Death Sentence.",
+    "name": "Doom",
+    "type": "active",
+  },
+  "Doublehand": {
+    "info": "Support. Uses both of unit's hands to double damage from the weapon.",
+    "name": "Doublehand",
+    "type": "support",
+  },
+  "Doubt Faith": {
+    "info": "5 range, 0 AoE, 4 CT, 6 MP. Hit: Faith(MA + 150)%. Effect: Add Innocent.",
+    "name": "Doubt Faith",
+    "type": "active",
+  },
+  "Dragon Pit": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Water. Hit: Random(1-9) times. Effect: Damage ((100 - CasterFaith) * (100 - TargetFaith) * (MA + 66) * MA / 2).",
+    "name": "Dragon Pit",
+    "type": "active",
+  },
+  "Dragon Spirit": {
+    "info": "Reaction. On damage, Add Reraise.",
+    "name": "Dragon Spirit",
+    "type": "react",
+  },
+  "Drain Touch": {
+    "info": "1 range, 0 AoE. Hit: (MA + 60)%. Effect: AbsorbHP (34)%",
+    "name": "Drain Touch",
+    "type": "active",
+  },
+  "Dual Wield": {
+    "info": "Support. Can equip a weapon in both of the unit's hands.",
+    "name": "Dual Wield",
+    "type": "support",
+  },
+  "Earplug": {
+    "info": "Reaction. On hit by Talk Skill, negate that ability.",
+    "name": "Earplug",
+    "type": "react",
+  },
+  "Earth Slash": {
+    "info": "8 range, 8 AoE (line). Element: Earth. Effect: (PA / 2 * PA).",
+    "name": "Earth Slash",
+    "type": "active",
+  },
+  "Echo Grass": {
+    "info": "Cancel Silence.",
+    "name": "Echo Grass",
+    "type": "active",
+  },
+  "Elixir": {
+    "info": "Heals All HP & MP.",
+    "name": "Elixir",
+    "type": "active",
+  },
+  "Empower": {
+    "info": "4 range, 0 AoE, 8 CT, 13 MP. Effect: +2 PA, +2 MA, +2 Speed.",
+    "name": "Empower",
+    "type": "active",
+  },
+  "Energize": {
+    "info": "4 range, 0 AoE. Effect: Heal (CasterMaxHP * 2 / 5); DamageCaster (CasterMaxHP / 5).",
+    "name": "Energize",
+    "type": "active",
+  },
+  "Equip Armor": {
+    "info": "Support. Allows user to equip Armor, Helmets, Clothing, Hats, and Robes.",
+    "name": "Equip Armor",
+    "type": "support",
+  },
+  "Equip Axe": {
+    "info": "Support. Allows user to equip Axes, Flails, and Staves.",
+    "name": "Equip Axe",
+    "type": "support",
+  },
+  "Equip Bow": {
+    "info": "Support. Allows user to equip Bows and Crossbows.",
+    "name": "Equip Bow",
+    "type": "support",
+  },
+  "Equip Gun": {
+    "info": "Support. Allows user to equip Guns, Books, and Harps.",
+    "name": "Equip Gun",
+    "type": "support",
+  },
+  "Equip Knife": {
+    "info": "Support. Allows user to equip Rods, Knives, and Ninja Blades.",
+    "name": "Equip Knife",
+    "type": "support",
+  },
+  "Equip Polearm": {
+    "info": "Support. Allows user to equip Spears, Poles, and Fabrics.",
+    "name": "Equip Polearm",
+    "type": "support",
+  },
+  "Equip Shield": {
+    "info": "Support. Allows user to equip a Shield, even with Knight Swords.",
+    "name": "Equip Shield",
+    "type": "support",
+  },
+  "Equip Sword": {
+    "info": "Support. Allows user to equip Swords, Knight Swords, and Katanas.",
+    "name": "Equip Sword",
+    "type": "support",
+  },
+  "Esuna": {
+    "info": "5 range, 1 AoE, 3 CT, 16 MP. Hit: Faith(MA + 190)%. Effect: Cancel Petrify, Darkness, Confusion, Silence, Blood Suck, Berserk, Frog, Poison, Sleep, Don't Move, Don't Act.",
+    "name": "Esuna",
+    "type": "active",
+  },
+  "Ether": {
+    "info": "Heals 20 MP.",
+    "name": "Ether",
+    "type": "active",
+  },
+  "Explosion Sword": {
+    "info": "4 range, 4 AoE (line), 3 CT, 26 MP. Effect: Damage (PA * (WP + 3)); Chance to Add Confusion.",
+    "name": "Explosion Sword",
+    "type": "active",
+  },
+  "Eye Drop": {
+    "info": "Cancel Darkness.",
+    "name": "Eye Drop",
+    "type": "active",
+  },
+  "Eye Gouge": {
+    "info": "1 range, 0 AoE. Hit: (MA + 55)%. Effect: Add Darkness.",
+    "name": "Eye Gouge",
+    "type": "active",
+  },
+  "Fairy": {
+    "info": "4 range, 2 AoE, 6 CT, 28 MP. Effect: Heal Faith(MA * 24).",
+    "name": "Fairy",
+    "type": "active",
+  },
+  "Faith Up": {
+    "info": "Reaction. On damage, +3 Faith.",
+    "name": "Faith Up",
+    "type": "react",
+  },
+  "Feather Bomb": {
+    "info": "4 range, 0 AoE. Element: Wind. Effect: Damage (MA * 2).",
+    "name": "Feather Bomb",
+    "type": "active",
+  },
+  "Finish Touch": {
+    "info": "3 range, 1 AoE, 7 CT. Effect: Add Death, Petrify, Stop (Random).",
+    "name": "Finish Touch",
+    "type": "active",
+  },
+  "Fire": {
+    "info": "5 range, 1 AoE, 3 CT, 6 MP. Element: Fire. Effect: Damage Faith(MA * 16).",
+    "name": "Fire",
+    "type": "active",
+  },
+  "Fire 2": {
+    "info": "5 range, 1 AoE, 4 CT, 12 MP. Element: Fire. Effect: Damage Faith(MA * 20).",
+    "name": "Fire 2",
+    "type": "active",
+  },
+  "Fire 3": {
+    "info": "5 range, 1 AoE, 6 CT, 24 MP. Element: Fire. Effect: Damage Faith(MA * 28).",
+    "name": "Fire 3",
+    "type": "active",
+  },
+  "Fire 4": {
+    "info": "5 range, 2 AoE, 8 CT, 48 MP. Element: Fire. Effect: Damage Faith(MA * 36).",
+    "name": "Fire 4",
+    "type": "active",
+  },
+  "Fire Breath": {
+    "info": "2 range, 2 AoE (line). Element: Fire. Effect: Damage (MA * 5).",
+    "name": "Fire Breath",
+    "type": "active",
+  },
+  "Flame Attack": {
+    "info": "3 range, 0 AoE. Element: Fire. Effect: Damage (MA * 4).",
+    "name": "Flame Attack",
+    "type": "active",
+  },
+  "Flare": {
+    "info": "6 range, 0 AoE, 7 CT, 60 MP. Effect: Damage Faith(MA * 49).",
+    "name": "Flare",
+    "type": "active",
+  },
+  "Float": {
+    "info": "5 range, 1 AoE, 2 CT, 8 MP. Hit: Faith(MA + 165)%. Effect: Add Float.",
+    "name": "Float",
+    "type": "active",
+  },
+  "Fly": {
+    "info": "Movement. Fly instead of walking, ignoring height.",
+    "name": "Fly",
+    "type": "move",
+  },
+  "Foxbird": {
+    "info": "5 range, 0 AoE, 4 CT, 20 MP. Hit: Faith(MA + 140)%. Effect: LowerBrave (30).",
+    "name": "Foxbird",
+    "type": "active",
+  },
+  "Frog": {
+    "info": "4 range, 0 AoE, 3 CT, 16 MP. Hit: Faith(MA + 180)%. Effect: Add Frog.",
+    "name": "Frog",
+    "type": "active",
+  },
+  "Galaxy Stop": {
+    "info": "0 range, 255 AoE, 15 CT, 66 MP. Hit: Non-Matching Zodiac; (MA + 45)%. Effect: Add Stop, Don't Act, Don't Move (All).",
+    "name": "Galaxy Stop",
+    "type": "active",
+  },
+  "Gather Power": {
+    "info": "0 range, 0 AoE. Effect: +2 PA.",
+    "name": "Gather Power",
+    "type": "active",
+  },
+  "Giga Flare": {
+    "info": "4 range, 2 AoE. Effect: Damage (MA * 7).",
+    "name": "Giga Flare",
+    "type": "active",
+  },
+  "Gil Taking": {
+    "info": "2 range, 0 AoE. Hit: (Speed + 62)%. Effect: Add Defending, Berserk (Random).",
+    "name": "Gil Taking",
+    "type": "active",
+  },
+  "Goblin Punch": {
+    "info": "1 range, 0 AoE. Hit: (MA + X)%. Effect: Damage (CasterMaxHP - CasterCurrentHP).",
+    "name": "Goblin Punch",
+    "type": "active",
+  },
+  "Golem": {
+    "info": "0 range, 0 AoE, 4 CT, 40 MP. Hit: ((Faith/100) * (MA + 200))%. Effect: Set Golem on party equal to Caster HP, which takes all physical damage for party until destroyed.",
+    "name": "Golem",
+    "type": "active",
+  },
+  "Goo": {
+    "info": "1 range, 0 AoE. Effect: Add Add Stop, Don't Act, Don't Move (All).",
+    "name": "Goo",
+    "type": "active",
+  },
+  "Grease Touch": {
+    "info": "1 range, 0 AoE. Hit: (MA + 50)%. Effect: Add Oil, Slow (All).",
+    "name": "Grease Touch",
+    "type": "active",
+  },
+  "Gusty Wind": {
+    "info": "5 range, 1 AoE. Terrain: Roof, Chimney. Element: Wind. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Slow.",
+    "name": "Gusty Wind",
+    "type": "active",
+  },
+  "HP Restore": {
+    "info": "Reaction. On critical, Heal all HP.",
+    "name": "HP Restore",
+    "type": "react",
+  },
+  "Hallowed Ground": {
+    "info": "5 range, 1 AoE. Terrain: Gravel, Flagstone, Wall, Gravestone. Element: Holy. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Petrify, Oil (Random).",
+    "name": "Hallowed Ground",
+    "type": "active",
+  },
+  "Halve MP": {
+    "info": "Support. Halves MP required for abilities.",
+    "name": "Halve MP",
+    "type": "support",
+  },
+  "Hamedo": {
+    "info": "Reaction. On normal attack by a weapon, if attacker is in weapon's range, negate that attack and attack the attacker instead.",
+    "name": "Hamedo",
+    "type": "react",
+  },
+  "Hammer": {
+    "info": "movement range, 0 AoE. Effect: Throw Flail Damage (Speed * ThrownWP).",
+    "name": "Hammer",
+    "type": "active",
+  },
+  "Haste": {
+    "info": "4 range, 1 AoE, 2 CT, 8 MP. Hit: Faith(MA + 180)%. Effect: Add Haste.",
+    "name": "Haste",
+    "type": "active",
+  },
+  "Haste 2": {
+    "info": "4 range, 1 AoE, 7 CT, 20 MP. Hit: Faith(MA + 240)%. Effect: Add Haste.",
+    "name": "Haste 2",
+    "type": "active",
+  },
+  "Head Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + WP + 45)%. Effect: Break target's head equipment. If none, attack instead.",
+    "name": "Head Break",
+    "type": "active",
+  },
+  "Heal": {
+    "info": "1 range, 0 AoE. Effect: Cancel Darkness, Silence, Oil, Poison, Sleep, Don't Act.",
+    "name": "Heal",
+    "type": "active",
+  },
+  "Heaven's Cloud": {
+    "info": "0 range, 2 AoE. Effect: Damage (MA * 11); Chance to Add Slow.",
+    "name": "Heaven's Cloud",
+    "type": "active",
+  },
+  "Height": {
+    "info": "Base math algorithm on height of the target's tile.",
+    "name": "Height",
+    "type": "active",
+  },
+  "Hell Ivy": {
+    "info": "5 range, 1 AoE. Terrain: Grassland, Underbrush, Vines. Element: Earth. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Stop.",
+    "name": "Hell Ivy",
+    "type": "active",
+  },
+  "Hi-Ether": {
+    "info": "Heals 50 MP.    ",
+    "name": "Hi-Ether",
+    "type": "active",
+  },
+  "Hi-Potion": {
+    "info": "Heals 120 HP.",
+    "name": "Hi-Potion",
+    "type": "active",
+  },
+  "Holy": {
+    "info": "5 range, 0 AoE, 6 CT, 56 MP. Element: Holy. Effect: Damage Faith(MA * 47).",
+    "name": "Holy",
+    "type": "active",
+  },
+  "Holy Breath": {
+    "info": "2 range, 2 AoE (line). Element: Holy. Effect: Damage (MA * 5).",
+    "name": "Holy Breath",
+    "type": "active",
+  },
+  "Holy Water": {
+    "info": "Cancel Undead.",
+    "name": "Holy Water",
+    "type": "active",
+  },
+  "Hurricane": {
+    "info": "4 range, 2 AoE. Element: Wind. Hit: (MA + 50)%. Effect: Damage (35)%.",
+    "name": "Hurricane",
+    "type": "active",
+  },
+  "Hydra Pit": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Water. Hit: Random(1-9) times. Effect: Damage ((MA + 10) * MA / 2).",
+    "name": "Hydra Pit",
+    "type": "active",
+  },
+  "Ice": {
+    "info": "5 range, 1 AoE, 3 CT, 6 MP. Element: Ice. Effect: Damage Faith(MA * 16).",
+    "name": "Ice",
+    "type": "active",
+  },
+  "Ice 2": {
+    "info": "5 range, 1 AoE, 4 CT, 12 MP. Element: Ice. Effect: Damage Faith(MA * 20).",
+    "name": "Ice 2",
+    "type": "active",
+  },
+  "Ice 3": {
+    "info": "5 range, 1 AoE, 6 CT, 24 MP. Element: Ice. Effect: Damage Faith(MA * 28).",
+    "name": "Ice 3",
+    "type": "active",
+  },
+  "Ice 4": {
+    "info": "5 range, 2 AoE, 8 CT, 48 MP. Element: Ice. Effect: Damage Faith(MA * 36).",
+    "name": "Ice 4",
+    "type": "active",
+  },
+  "Ice Breath": {
+    "info": "2 range, 2 AoE (line). Element: Ice. Effect: Damage (MA * 5).",
+    "name": "Ice Breath",
+    "type": "active",
+  },
+  "Ice Soul": {
+    "info": "3 range, 0 AoE. Element: Ice. Effect: Damage (MA * 3).",
+    "name": "Ice Soul",
+    "type": "active",
+  },
+  "Ifrit": {
+    "info": "4 range, 2 AoE, 4 CT, 24 MP. Element: Fire. Effect: Damage Faith(MA * 24).",
+    "name": "Ifrit",
+    "type": "active",
+  },
+  "Ignore Height": {
+    "info": "Movement. Jump any height.",
+    "name": "Ignore Height",
+    "type": "move",
+  },
+  "Ignore Terrain": {
+    "info": "Movement. No movement penalty for difficult terrain.",
+    "name": "Ignore Terrain",
+    "type": "move",
+  },
+  "Immobilize": {
+    "info": "5 range, 1 AoE, 3 CT, 10 MP. Hit: Faith(MA + 185)%. Effect: Add Don't Move.",
+    "name": "Immobilize",
+    "type": "active",
+  },
+  "Insult": {
+    "info": "4 range, 0 AoE. Hit: (MA + 40)%. Effect: Add Berserk.",
+    "name": "Insult",
+    "type": "active",
+  },
+  "Invitation": {
+    "info": "4 range, 0 AoE. Hit: (MA + 35)%. Effect: Add Confusion, Charm (Random).",
+    "name": "Invitation",
+    "type": "active",
+  },
+  "Jump+1": {
+    "info": "Movement. Increases Jump by 1.",
+    "name": "Jump+1",
+    "type": "move",
+  },
+  "Jump+2": {
+    "info": "Movement. Increases Jump by 2.",
+    "name": "Jump+2",
+    "type": "move",
+  },
+  "Jump+3": {
+    "info": "Movement. Increases Jump by 3.",
+    "name": "Jump+3",
+    "type": "move",
+  },
+  "Justice Sword": {
+    "info": "2 range, 0 AoE, 2 CT, 22 MP. Effect: Damage (PA * (WP + 2)); Chance to Add Death Sentence.",
+    "name": "Justice Sword",
+    "type": "active",
+  },
+  "Kikuichimoji": {
+    "info": "6 range, 6 AoE (line). Effect: Damage (MA * 12).",
+    "name": "Kikuichimoji",
+    "type": "active",
+  },
+  "Kiyomori": {
+    "info": "0 range, 2 AoE. Effect: Add Protect, Shell (Random).",
+    "name": "Kiyomori",
+    "type": "active",
+  },
+  "Knife": {
+    "info": "movement range, 0 AoE. Effect: Throw Knife Damage (Speed * ThrownWP).",
+    "name": "Knife",
+    "type": "active",
+  },
+  "Knife Hand": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack; Chance to Add Undead.",
+    "name": "Knife Hand",
+    "type": "active",
+  },
+  "Koutetsu": {
+    "info": "0 range, 2 AoE, Effect: Damage (MA * 10); Chance to Add Oil, Darkness (Random).",
+    "name": "Koutetsu",
+    "type": "active",
+  },
+  "Landlocked": {
+    "info": "Movement. Cannot enter water.",
+    "name": "Landlocked",
+    "type": "move",
+  },
+  "Last Dance": {
+    "info": "0 range, 255 AoE, 16 CT. Hit: 34% per target. Effect: Set CT to 0.",
+    "name": "Last Dance",
+    "type": "active",
+  },
+  "Last Song": {
+    "info": "0 range, 255 AoE, 16 CT. Hit: 50% per target. Effect: Set CT to Max.",
+    "name": "Last Song",
+    "type": "active",
+  },
+  "Lava Ball": {
+    "info": "5 range, 1 AoE. Terrain: Lava, Machinery. Element: Fire. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Berserk.",
+    "name": "Lava Ball",
+    "type": "active",
+  },
+  "Lava Walking": {
+    "info": "Movement. Move and stand on top of lava.",
+    "name": "Lava Walking",
+    "type": "move",
+  },
+  "Leaf Dance": {
+    "info": "0 range, 1 AoE. Effect: Damage (MA * 5).",
+    "name": "Leaf Dance",
+    "type": "active",
+  },
+  "Leg Aim": {
+    "info": "weapon range, 0 AoE. Hit: (Speed+ 42)%. Effect: Add Don't Move.",
+    "name": "Leg Aim",
+    "type": "active",
+  },
+  "Level Blast": {
+    "info": "3 range, 0 AoE. Effect: +1 Brave, +1 PA, +1 MA, +1 Speed.",
+    "name": "Level Blast",
+    "type": "active",
+  },
+  "Level Jump2": {
+    "info": "Sets horizontal jump range to 2.",
+    "name": "Level Jump2",
+    "type": "active",
+  },
+  "Level Jump3": {
+    "info": "Sets horizontal jump range to 3.",
+    "name": "Level Jump3",
+    "type": "active",
+  },
+  "Level Jump4": {
+    "info": "Sets horizontal jump range to 4.",
+    "name": "Level Jump4",
+    "type": "active",
+  },
+  "Level Jump5": {
+    "info": "Sets horizontal jump range to 5.",
+    "name": "Level Jump5",
+    "type": "active",
+  },
+  "Level Jump8": {
+    "info": "Sets horizontal jump range to 8.",
+    "name": "Level Jump8",
+    "type": "active",
+  },
+  "Leviathan": {
+    "info": "4 range, 3 AoE, 9 CT, 48 MP. Element: Water. Effect: Damage Faith(MA * 38).",
+    "name": "Leviathan",
+    "type": "active",
+  },
+  "Levitate": {
+    "info": "Movement. Grants permanent Float.",
+    "name": "Levitate",
+    "type": "move",
+  },
+  "Lich": {
+    "info": "4 range, 2 AoE, 9 CT, 40 MP. Element: Dark. Hit: Faith(MA + 160)%. Effect: Damage (60)%.",
+    "name": "Lich",
+    "type": "active",
+  },
+  "Lick": {
+    "info": "1 range, 0 AoE. Effect: Add Reflect.",
+    "name": "Lick",
+    "type": "active",
+  },
+  "Life Drain": {
+    "info": "5 range, 0 AoE, 2 CT, 16 MP. Hit: Faith(MA + 170)%. Effect: Absorb (25)%",
+    "name": "Life Drain",
+    "type": "active",
+  },
+  "Life Song": {
+    "info": "0 range, 255 AoE, 5 CT.  Effect: Heal (10 + MA).",
+    "name": "Life Song",
+    "type": "active",
+  },
+  "Life Spirit": {
+    "info": "0 range, 2 AoE. Effect: Heal (MA * 4).",
+    "name": "Life Spirit",
+    "type": "active",
+  },
+  "Lifebreak": {
+    "info": "4 range, 0 AoE, 2 CT. Effect: Damage (CasterMaxHP - CasterCurrentHP).",
+    "name": "Lifebreak",
+    "type": "active",
+  },
+  "Local Quake": {
+    "info": "5 range, 1 AoE. Terrain: Stone, Basalt. Element: Earth. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Confusion.",
+    "name": "Local Quake",
+    "type": "active",
+  },
+  "Long Status": {
+    "info": "Support. Unit is affected by status effects (both buffs and debuffs) 50% longer than other units.",
+    "name": "Long Status",
+    "type": "support",
+  },
+  "Look of Devil": {
+    "info": "3 range, 0 AoE. Hit: (MA + 35)%. Effect: Add Petrify, Darkness, Silence, Don't Move, Don't Act (Random).",
+    "name": "Look of Devil",
+    "type": "active",
+  },
+  "Look of Fright": {
+    "info": "3 range, 0 AoE. Hit: (MA + 45)%. Effect: -15 Brave.",
+    "name": "Look of Fright",
+    "type": "active",
+  },
+  "MA Save": {
+    "info": "Reaction. On damage, +1 MA.",
+    "name": "MA Save",
+    "type": "react",
+  },
+  "MP Restore": {
+    "info": "Reaction. On critical, Heal all MP.",
+    "name": "MP Restore",
+    "type": "react",
+  },
+  "Magic Attack UP": {
+    "info": "Support. Increases magical damage by a third.",
+    "name": "Magic Attack UP",
+    "type": "support",
+  },
+  "Magic Barrier": {
+    "info": "3 range, 11 CT, 35 MP. Hit: Faith(MA + 200)%. Effect: Add Reraise, Regen, Protect, Shell, Haste (All).",
+    "name": "Magic Barrier",
+    "type": "active",
+  },
+  "Magic Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + 50)%. Effect: DamageMP (50)%.",
+    "name": "Magic Break",
+    "type": "active",
+  },
+  "Magic Defend UP": {
+    "info": "Support. Decreases damage taken by magical attacks by a third.",
+    "name": "Magic Defend UP",
+    "type": "support",
+  },
+  "Magic Song": {
+    "info": "0 range, 255 AoE, 8 CT.  Hit: 50% per target. Effect: +1 MA.",
+    "name": "Magic Song",
+    "type": "active",
+  },
+  "Magic Spirit": {
+    "info": "0 range, 2 AoE. Effect: HealMP (MA * 2).",
+    "name": "Magic Spirit",
+    "type": "active",
+  },
+  "Maiden's Kiss": {
+    "info": "Cancel Frog.",
+    "name": "Maiden's Kiss",
+    "type": "active",
+  },
+  "Maintenance": {
+    "info": "Support. Unit's items cannot be broken or stolen.",
+    "name": "Maintenance",
+    "type": "support",
+  },
+  "Mana Shield": {
+    "info": "Reaction. On damage, do MP damage instead if MP is greater than 0.",
+    "name": "Mana Shield",
+    "type": "react",
+  },
+  "Manaburn": {
+    "info": "5 range, 0 AoE. EffecT: Damage (TargetCurrentMP).",
+    "name": "Manaburn",
+    "type": "active",
+  },
+  "Martial Arts": {
+    "info": "Support. Increases damage from unarmed attacks by 50%.",
+    "name": "Martial Arts",
+    "type": "support",
+  },
+  "Masamune": {
+    "info": "0 range, 2 AoE. Effect: Add Regen, Haste (Random).",
+    "name": "Masamune",
+    "type": "active",
+  },
+  "Meatbone Slash": {
+    "info": "Reaction. On critical, attack back with an attack equal to Max HP.",
+    "name": "Meatbone Slash",
+    "type": "react",
+  },
+  "Meteor": {
+    "info": "5 range, 3 AoE, 13 CT, 70 MP. Effect: Damage Faith(MA * 60).",
+    "name": "Meteor",
+    "type": "active",
+  },
+  "Meteorain": {
+    "info": "3 range, 2 AoE, 9 CT. Effect: Damage (MA * 26).",
+    "name": "Meteorain",
+    "type": "active",
+  },
+  "Midgar Swarm": {
+    "info": "4 range, 2 AoE, 3 CT, 37 MP. Effect: Damage (MA * 16).",
+    "name": "Midgar Swarm",
+    "type": "active",
+  },
+  "Mimic Daravon": {
+    "info": "3 range, 1 AoE. Hit: (MA + 40)%. Effect: Add Sleep.",
+    "name": "Mimic Daravon",
+    "type": "active",
+  },
+  "Mimic Titan": {
+    "info": "0 range, 2 AoE. Element: Earth. Effect: Damage (MA * 3).",
+    "name": "Mimic Titan",
+    "type": "active",
+  },
+  "Mind Blast": {
+    "info": "3 range, 1 AoE. Hit: (MA + 35)%. Effect: Add Confusion, Berserk (Random).",
+    "name": "Mind Blast",
+    "type": "active",
+  },
+  "Mind Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + 50)%. Effect: -3 MA.",
+    "name": "Mind Break",
+    "type": "active",
+  },
+  "Moldball Virus": {
+    "info": "1 range, 0 AoE. Hit: (MA + 5)%. Effect: Transform Human into Malboro.",
+    "name": "Moldball Virus",
+    "type": "active",
+  },
+  "Monster Talk": {
+    "info": "Support. Allows Talk Skills to work on monsters.",
+    "name": "Monster Talk",
+    "type": "support",
+  },
+  "Moogle": {
+    "info": "4 range, 2 AoE, 3 CT, 12 MP. Hit: Faith(MA + 145)%. Effect: Cancel Petrify, Darkness, Confusion, Silence, Blood Suck, Berserk, Frog, Poison, Sleep, Don't Move, Don't Act; if successful, Heal (10)%",
+    "name": "Moogle",
+    "type": "active",
+  },
+  "Move+1": {
+    "info": "Movement. Increases Move by 1.",
+    "name": "Move+1",
+    "type": "move",
+  },
+  "Move+2": {
+    "info": "Movement. Increases Move by 2.",
+    "name": "Move+2",
+    "type": "move",
+  },
+  "Move+3": {
+    "info": "Movement. Increases Move by 3.",
+    "name": "Move+3",
+    "type": "move",
+  },
+  "Move-HP Up": {
+    "info": "Movement. Heals 10% HP after moving.",
+    "name": "Move-HP Up",
+    "type": "move",
+  },
+  "Move-MP Up": {
+    "info": "Movement. Heals 10% MP after moving.",
+    "name": "Move-MP Up",
+    "type": "move",
+  },
+  "Muramasa": {
+    "info": "0 range, 2 AoE. Effect: Damage (MA * 14); Chance to Add Confusion, Death Sentence (Random).",
+    "name": "Muramasa",
+    "type": "active",
+  },
+  "Murasame": {
+    "info": "0 range, 2 AoE. Effect: Heal (MA * 9).",
+    "name": "Murasame",
+    "type": "active",
+  },
+  "Mutilate": {
+    "info": "1 range, 0 AoE. Hit: (MA + 29)%. Effect: AbsorbHP (66)%.",
+    "name": "Mutilate",
+    "type": "active",
+  },
+  "Nameless Dance": {
+    "info": "0 range, 255 AoE, 10 CT, 1 MP. Hit: 50% per target. Effect: Add Darkness, Confusion, Silence, Frog, Poison, Slow, Stop, Sleep (Random).",
+    "name": "Nameless Dance",
+    "type": "active",
+  },
+  "Nameless Song": {
+    "info": "0 range, 255 AoE, 9 CT, 1 MP.  Hit: 50% per target. Effect: Add Reraise, Regen, Protect, Shell, Haste (Random).",
+    "name": "Nameless Song",
+    "type": "active",
+  },
+  "Nanoflare": {
+    "info": "4 range, 2 AoE, 5 CT. Effect: Damage ((MA + 5) / 2 * MA).",
+    "name": "Nanoflare",
+    "type": "active",
+  },
+  "Negotiate": {
+    "info": "4 range, 0 AoE. Hit: (MA + 42)%. Effect: Add Slow, Stop (Random).",
+    "name": "Negotiate",
+    "type": "active",
+  },
+  "Nether Demon": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Earth. Hit: Random(1-9) times. Effect: Damage ((100 - CasterFaith) * (100 - TargetFaith) * (MA + 66) * MA / 2).",
+    "name": "Nether Demon",
+    "type": "active",
+  },
+  "Night Sword": {
+    "info": "2 range, 0 AoE, 3 CT, 22 MP. Effect: AbsorbHP (PA * WP).",
+    "name": "Night Sword",
+    "type": "active",
+  },
+  "Ninja Sword": {
+    "info": "movement range, 0 AoE. Effect: Throw Ninja Blade Damage (Speed * ThrownWP).",
+    "name": "Ninja Sword",
+    "type": "active",
+  },
+  "Non-Charge": {
+    "info": "Support. The CT of all used abilities is reduced to 0.",
+    "name": "Non-Charge",
+    "type": "support",
+  },
+  "Noxious Gas": {
+    "info": "3 range, 1 AoE. Hit: Faith(MA + 223)%. Effect: Add Defending, Darkness, Oil, Poison, Slow, Don't Move (Separate).",
+    "name": "Noxious Gas",
+    "type": "active",
+  },
+  "Obsidian Blade": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Wind. Hit: Random(1-9) times. Effect: Damage ((100 - CasterFaith) * (100 - TargetFaith) * (MA + 66) * MA / 2).",
+    "name": "Obsidian Blade",
+    "type": "active",
+  },
+  "Odd Soundwave": {
+    "info": "0 range, 2 AoE. Effect: Cancel Charging, Performing, Float, Reraise, Transparent, Regen, Protect, Shell, Haste, Faith, Reflect.",
+    "name": "Odd Soundwave",
+    "type": "active",
+  },
+  "Odin": {
+    "info": "4 range, 3 AoE, 9 CT, 50 MP. Element: Holy. Effect: Damage Faith(MA * 40).",
+    "name": "Odin",
+    "type": "active",
+  },
+  "Oink": {
+    "info": "1 range, 0 AoE. Hit: (PA + 71)%. Effect: Cancel Death; if successful Heal (75)%.",
+    "name": "Oink",
+    "type": "active",
+  },
+  "Omnislash": {
+    "info": "3 range, 2 AoE, 11 CT. Effect: Damage (MA * 40).",
+    "name": "Omnislash",
+    "type": "active",
+  },
+  "PA Save": {
+    "info": "Reaction. On damage, +1 PA.",
+    "name": "PA Save",
+    "type": "react",
+  },
+  "Paralyze": {
+    "info": "5 range, 1 AoE, 5 CT, 10 MP. Hit: Faith(MA + 175)%. Effect: Add Don't Act.",
+    "name": "Paralyze",
+    "type": "active",
+  },
+  "Parasite": {
+    "info": "4 range, 0 AoE. Effect: Add Petrify, Darkness, Confusion, Silence, Oil, Frog, Poison, Sleep (Separate).",
+    "name": "Parasite",
+    "type": "active",
+  },
+  "Parry": {
+    "info": "Reaction. Enables the use of equipped weapon's evasion. Stacks with class, shield, and accessory evasion.",
+    "name": "Parry",
+    "type": "react",
+  },
+  "Peck": {
+    "info": "1 range, 0 AoE. Hit: (MA + 45)%. Effect: -2 PA.",
+    "name": "Peck",
+    "type": "active",
+  },
+  "Persuade": {
+    "info": "4 range, 0 AoE. Hit: (MA + 32)%. Effect: Set CT to 0.",
+    "name": "Persuade",
+    "type": "active",
+  },
+  "Petrify": {
+    "info": "5 range, 0 AoE, 9 CT, 16 MP. Hit: Faith(MA + 120)%. Effect: Add Petrify.",
+    "name": "Petrify",
+    "type": "active",
+  },
+  "Phoenix Down": {
+    "info": "Cancel Death; if successful, Heal Random(1-20). Kills Undead.",
+    "name": "Phoenix Down",
+    "type": "active",
+  },
+  "Pitfall": {
+    "info": "5 range, 1 AoE. Terrain: Soil, Wasteland, Road. Element: Dark. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Don't Move.",
+    "name": "Pitfall",
+    "type": "active",
+  },
+  "Poison": {
+    "info": "5 range, 1 AoE, 3 CT, 16 MP. Hit: Faith(MA + 180)%. Effect: Add Poison.",
+    "name": "Poison",
+    "type": "active",
+  },
+  "Poison Nail": {
+    "info": "1 range, 0 AoE. Hit: (MA + 55)%. Effect: Add Poison.",
+    "name": "Poison Nail",
+    "type": "active",
+  },
+  "Polka Polka": {
+    "info": "0 range, 255 AoE, 8 CT. Hit: 50% per target. Effect: -1 PA.",
+    "name": "Polka Polka",
+    "type": "active",
+  },
+  "Potion": {
+    "info": "Heals 100 HP.",
+    "name": "Potion",
+    "type": "active",
+  },
+  "Power Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + 50)%. Effect: -3 PA.",
+    "name": "Power Break",
+    "type": "active",
+  },
+  "Praise": {
+    "info": "4 range, 0 AoE. Hit: (MA + 80)%. Effect: +5 Brave.",
+    "name": "Praise",
+    "type": "active",
+  },
+  "Pray Faith": {
+    "info": "5 range, 0 AoE, 4 CT, 6 MP. Hit: Faith(MA + 150)%. Effect: Add Faith.",
+    "name": "Pray Faith",
+    "type": "active",
+  },
+  "Preach": {
+    "info": "4 range, 0 AoE. Hit: (MA + 80)%. Effect: +5 Faith.",
+    "name": "Preach",
+    "type": "active",
+  },
+  "Prime Number": {
+    "info": "An algorithm for targeting unit whose attribute is a prime number (a number divisible by 1 and itself).",
+    "name": "Prime Number",
+    "type": "active",
+  },
+  "Protect": {
+    "info": "4 range, 1 AoE, 4 CT, 6 MP. Hit: Faith(MA + 200)%. Effect: Add Protect.",
+    "name": "Protect",
+    "type": "active",
+  },
+  "Protect 2": {
+    "info": "4 range, 1 AoE, 7 CT, 18 MP. Hit: Faith(MA + 240)%. Effect: Add Protect.",
+    "name": "Protect 2",
+    "type": "active",
+  },
+  "Protect Spirit": {
+    "info": "0 range, 2 AoE. Hit: (MA + 45)%. Effect: Add Defending, Protect (All).",
+    "name": "Protect Spirit",
+    "type": "active",
+  },
+  "Pummel": {
+    "info": "1 range, 0 AoE. Effect: Damage (Random(1-9) * PA * 3).",
+    "name": "Pummel",
+    "type": "active",
+  },
+  "Purification": {
+    "info": "0 range, 1 AoE. Hit: (PA + 120)%. Effect: Cancel Petrify, Darkness, Confusion, Silence, Blood Suck, Berserk, Frog, Poison, Sleep, Don't Move, Don't Act.",
+    "name": "Purification",
+    "type": "active",
+  },
+  "Quick": {
+    "info": "5 range, 0 AoE, 4 CT, 24 MP. Hit: Faith(MA + 140)%. Effect: Set CT to Max.",
+    "name": "Quick",
+    "type": "active",
+  },
+  "Quicksand": {
+    "info": "5 range, 1 AoE. Terrain: Marsh, Swamp, Poisonous Fen. Element: Water. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Death Sentence.",
+    "name": "Quicksand",
+    "type": "active",
+  },
+  "Raise": {
+    "info": "5 range, 0 AoE, 4 CT, 10 MP. Hit: Faith(MA + 185)%. Effect: Cancel Death; if successful Heal (50)%.",
+    "name": "Raise",
+    "type": "active",
+  },
+  "Raise 2": {
+    "info": "5 range, 0 AoE, 10 CT, 20 MP. Hit: Faith(MA + 160)%. Effect: Cancel Death; if successful Heal (100)%.",
+    "name": "Raise 2",
+    "type": "active",
+  },
+  "Ramuh": {
+    "info": "4 range, 2 AoE, 4 CT, 24 MP. Element: Lightning. Effect: Damage Faith(MA * 24).",
+    "name": "Ramuh",
+    "type": "active",
+  },
+  "Reflect": {
+    "info": "5 range, 0 AoE, 2 CT, 12 MP. Hit: Faith(MA + 180)%. Effect: Add Reflect.",
+    "name": "Reflect",
+    "type": "active",
+  },
+  "Refute": {
+    "info": "4 range, 0 AoE. Hit: (MA + 72)%. Effect: Cancel Undead, Confusion, Blood Suck, Reraise, Berserk, Faith, Innocent, Charm, Sleep, Death Sentence.",
+    "name": "Refute",
+    "type": "active",
+  },
+  "Regen": {
+    "info": "4 range, 1 AoE, 4 CT, 8 MP. Hit: Faith(MA + 170)%. Effect: Add Regen.",
+    "name": "Regen",
+    "type": "active",
+  },
+  "Regenerator": {
+    "info": "Reaction. On damage, Add Regen.",
+    "name": "Regenerator",
+    "type": "react",
+  },
+  "Rehabilitate": {
+    "info": "4 range, 0 AoE. Effect: HealMP (MA * 3).",
+    "name": "Rehabilitate",
+    "type": "active",
+  },
+  "Remedy": {
+    "info": "Cancel Petrify, Darkness, Confusion, Silence, Oil, Frog, Poison, Sleep.",
+    "name": "Remedy",
+    "type": "active",
+  },
+  "Repair": {
+    "info": "0 range, 0 AoE. Hit: (PA + 80)%. Effect: Add Oil; if successful Heal (40)%.",
+    "name": "Repair",
+    "type": "active",
+  },
+  "Reraise": {
+    "info": "4 range, 0 AoE, 7 CT, 16 MP. Hit: Faith(MA + 140)%. Effect: Add Reraise.",
+    "name": "Reraise",
+    "type": "active",
+  },
+  "Retreat": {
+    "info": "Movement. When in critical, increases Move by 4.",
+    "name": "Retreat",
+    "type": "move",
+  },
+  "Revive": {
+    "info": "1 range, 0 AoE. Effect: Hit: (PA + 70)%. Effect: Cancel Death; if successful Heal (20)%.",
+    "name": "Revive",
+    "type": "active",
+  },
+  "Salamander": {
+    "info": "4 range, 2 AoE, 9 CT, 44 MP. Element: Fire. Effect: Damage Faith(MA * 36); Chance to add Oil.",
+    "name": "Salamander",
+    "type": "active",
+  },
+  "Sand Storm": {
+    "info": "5 range, 1 AoE. Terrain: Sand, Stalactite, Salt. Element: Wind. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Darkness.",
+    "name": "Sand Storm",
+    "type": "active",
+  },
+  "Scratch": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Scratch",
+    "type": "active",
+  },
+  "Scratch Up": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Scratch Up",
+    "type": "active",
+  },
+  "Scream": {
+    "info": "0 range, 0 AoE, 2 CT. Effect: +3 Brave, +1 PA, +1 MA, +1 Speed.",
+    "name": "Scream",
+    "type": "active",
+  },
+  "Seal Evil": {
+    "info": "weapon range, 0 AoE. Hit: Undead; (Speed+ 60)%. Effect: Add Petrify.",
+    "name": "Seal Evil",
+    "type": "active",
+  },
+  "Secret Fist": {
+    "info": "1 range, 0 AoE. Hit: (MA + 50)%. Effect: Add Death Sentence.",
+    "name": "Secret Fist",
+    "type": "active",
+  },
+  "Secret Hunt": {
+    "info": "Support. When unit kills or revives another unit, it gains +1 PA and +1 MA.",
+    "name": "Secret Hunt",
+    "type": "support",
+  },
+  "Self Destruct": {
+    "info": "0 range, 2 AoE. Effect: Adds Death to Caster; Damage (CasterMaxHP - CasterCurrentHP); Adds Oil.",
+    "name": "Self Destruct",
+    "type": "active",
+  },
+  "Shake Off": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Shake Off",
+    "type": "active",
+  },
+  "Shell": {
+    "info": "4 range, 1 AoE, 4 CT, 6 MP. Hit: Faith(MA + 200)%. Effect: Add Shell.",
+    "name": "Shell",
+    "type": "active",
+  },
+  "Shell 2": {
+    "info": "4 range, 1 AoE, 7 CT, 18 MP. Hit: Faith(MA + 240)%. Effect: Add Shell.",
+    "name": "Shell 2",
+    "type": "active",
+  },
+  "Shield Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + WP + 55)%. Effect: Break target's shield. If none, attack instead.",
+    "name": "Shield Break",
+    "type": "active",
+  },
+  "Shine Lover": {
+    "info": "1 range, 0 AoE. Hit: (PA + 50)%. Effect: DamageMP (50)%",
+    "name": "Shine Lover",
+    "type": "active",
+  },
+  "Shiva": {
+    "info": "4 range, 2 AoE, 4 CT, 24 MP. Element: Ice. Effect: Damage Faith(MA * 24).",
+    "name": "Shiva",
+    "type": "active",
+  },
+  "Short Charge": {
+    "info": "Support. The CT of all used abilities is halved.",
+    "name": "Short Charge",
+    "type": "support",
+  },
+  "Short Status": {
+    "info": "Support. Unit is affected by status effects (both buffs and debuffs) half as long as other units.",
+    "name": "Short Status",
+    "type": "support",
+  },
+  "Shuriken": {
+    "info": "movement range, 0 AoE. Effect: Throw Shuriken Damage (Speed * ThrownWP).",
+    "name": "Shuriken",
+    "type": "active",
+  },
+  "Sicken": {
+    "info": "Support. Physical attacks by unit Add Poison.",
+    "name": "Sicken",
+    "type": "support",
+  },
+  "Silence Song": {
+    "info": "5 range, 1 AoE, 3 CT, 16 MP. Hit: Faith(MA + 180)%. Effect: Add Silence.",
+    "name": "Silence Song",
+    "type": "active",
+  },
+  "Silf": {
+    "info": "4 range, 2 AoE, 7 CT, 36 MP. Element: Wind. Effect: Damage Faith(MA * 30); Chance to add Silence.",
+    "name": "Silf",
+    "type": "active",
+  },
+  "Sky Demon": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Earth. Hit: Random(1-9) times. Effect: Damage ((MA + 10) * MA / 2).",
+    "name": "Sky Demon",
+    "type": "active",
+  },
+  "Sleep": {
+    "info": "5 range, 1 AoE, 6 CT, 24 MP. Hit: Faith(MA + 170)%. Effect: Add Sleep.",
+    "name": "Sleep",
+    "type": "active",
+  },
+  "Sleep Touch": {
+    "info": "1 range, 0 AoE. Hit: (MA + 40)%. Effect: Add Sleep.",
+    "name": "Sleep Touch",
+    "type": "active",
+  },
+  "Slow": {
+    "info": "4 range, 1 AoE, 2 CT, 8 MP. Hit: Faith(MA + 180)%. Effect: Add Slow.",
+    "name": "Slow",
+    "type": "active",
+  },
+  "Slow 2": {
+    "info": "4 range, 1 AoE, 7 CT, 20 MP. Hit: Faith(MA + 240)%. Effect: Add Slow.",
+    "name": "Slow 2",
+    "type": "active",
+  },
+  "Slow Dance": {
+    "info": "0 range, 255 AoE, 7 CT. Hit: 50% per target. Effect: -1 Speed.",
+    "name": "Slow Dance",
+    "type": "active",
+  },
+  "Small Bomb": {
+    "info": "4 range, 0 AoE. Element: Dark. Effect: Damage Faith(MA * 8).",
+    "name": "Small Bomb",
+    "type": "active",
+  },
+  "Snake Carrier": {
+    "info": "1 range, 0 AoE. Effect: AbsorbHP (25)%; Add Undead, Darkness, Confusion, Blood Suck, Oil, Frog, Poison, Charm, Sleep, Death Sentence (Random).",
+    "name": "Snake Carrier",
+    "type": "active",
+  },
+  "Snort": {
+    "info": "1 range, 0 AoE. Hit: Non-Matching Sex; (MA + 40)%. Effect: Add Charm.",
+    "name": "Snort",
+    "type": "active",
+  },
+  "Soft": {
+    "info": "Cancel Petrify.",
+    "name": "Soft",
+    "type": "active",
+  },
+  "Solution": {
+    "info": "4 range, 0 AoE. Hit: (MA + 90)%. Effect: -20 Faith.",
+    "name": "Solution",
+    "type": "active",
+  },
+  "Space Storage": {
+    "info": "4 range, 1 AoE, 4 CT, 20 MP. Element: Holy. Hit: Random(1-9) times. Effect: Damage ((MA + 6) * MA / 2); Chance to Add Darkness, Confusion, Silence, Frog, Poison, Slow, Sleep (Random).",
+    "name": "Space Storage",
+    "type": "active",
+  },
+  "Spark": {
+    "info": "0 range, 2 AoE. Element: Fire. Effect: Damage (MA * 3).",
+    "name": "Spark",
+    "type": "active",
+  },
+  "Spear": {
+    "info": "movement range, 0 AoE. Effect: Throw Spear Damage (Speed * ThrownWP).",
+    "name": "Spear",
+    "type": "active",
+  },
+  "Speed Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + 50)%. Effect: -2 Speed.",
+    "name": "Speed Break",
+    "type": "active",
+  },
+  "Speed Save": {
+    "info": "Reaction. On damage, +1 Speed.",
+    "name": "Speed Save",
+    "type": "react",
+  },
+  "Spell Absorb": {
+    "info": "5 range, 0 AoE, 2 CT, 2 MP. Hit: Faith(MA + 165)%. Effect: AbsorbMP (33)%",
+    "name": "Spell Absorb",
+    "type": "active",
+  },
+  "Spin Fist": {
+    "info": "0 range, 1 AoE. Effect: Damage (PA / 2 * PA).",
+    "name": "Spin Fist",
+    "type": "active",
+  },
+  "Spirit of Life": {
+    "info": "0 range, 2 AoE. Effect: Heal (MA * 4).",
+    "name": "Spirit of Life",
+    "type": "active",
+  },
+  "Stab Up": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Stab Up",
+    "type": "active",
+  },
+  "Stabilize Time": {
+    "info": "3 range, 1 AoE, 2 CT, 14 MP. Hit: Faith(MA + 185)%. Effect: Cancel Float, Haste, Slow, Stop, Don't Move, Reflect, Death Sentence.",
+    "name": "Stabilize Time",
+    "type": "active",
+  },
+  "Staff": {
+    "info": "movement range, 0 AoE. Effect: Throw Staff Damage (Speed * ThrownWP).",
+    "name": "Staff",
+    "type": "active",
+  },
+  "Stasis Sword": {
+    "info": "1 range, 1 AoE, 2 CT, 20 MP. Effect: Damage (PA * (WP + 1)); Chance to Add Stop.",
+    "name": "Stasis Sword",
+    "type": "active",
+  },
+  "Static Shock": {
+    "info": "5 range, 1 AoE. Terrain: Book, Tree, Bridge, Furnishing, Iron, Moss, Coffin. Element: Lightning. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Don't Act.",
+    "name": "Static Shock",
+    "type": "active",
+  },
+  "Steal Accessory": {
+    "info": "1 range, 0 AoE. Hit: (Speed + 40)%. Effect: Steal target's accessory.",
+    "name": "Steal Accessory",
+    "type": "active",
+  },
+  "Steal Armor": {
+    "info": "1 range, 0 AoE. Hit: (Speed + 35)%. Effect: Steal target's body equipment.",
+    "name": "Steal Armor",
+    "type": "active",
+  },
+  "Steal Heart": {
+    "info": "3 range, 0 AoE. Hit: Non-Matching Sex; (MA + 43)%. Effect: Add Charm.",
+    "name": "Steal Heart",
+    "type": "active",
+  },
+  "Steal Helmet": {
+    "info": "1 range, 0 AoE. Hit: (Speed + 40)%. Effect: Steal target's head equipment.",
+    "name": "Steal Helmet",
+    "type": "active",
+  },
+  "Steal Shield": {
+    "info": "1 range, 0 AoE. Hit: (Speed + 35)%. Effect: Steal target's shield.",
+    "name": "Steal Shield",
+    "type": "active",
+  },
+  "Steal Status": {
+    "info": "2 range, 0 AoE. Hit: Faith(MA + 142)%. Effect: Cancel statuses on target and Add them to self.",
+    "name": "Steal Status",
+    "type": "active",
+  },
+  "Steal Weapon": {
+    "info": "1 range, 0 AoE. Hit: (Speed + 30)%. Effect: Steal target's weapon.",
+    "name": "Steal Weapon",
+    "type": "active",
+  },
+  "Stick": {
+    "info": "movement range, 0 AoE. Effect: Throw Pole Damage (Speed * ThrownWP).",
+    "name": "Stick",
+    "type": "active",
+  },
+  "Stop": {
+    "info": "4 range, 1 AoE, 7 CT, 14 MP. Hit: Faith(MA + 110)%. Effect: Add Stop.",
+    "name": "Stop",
+    "type": "active",
+  },
+  "Straight Dash": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Straight Dash",
+    "type": "active",
+  },
+  "Sudden Cry": {
+    "info": "1 range, 0 AoE. Effect: Damage ((PA + 2) / 2 * PA); Chance to Add Death.",
+    "name": "Sudden Cry",
+    "type": "active",
+  },
+  "Sunken State": {
+    "info": "Reaction. On damage, Add Transparent.",
+    "name": "Sunken State",
+    "type": "react",
+  },
+  "Surging Sword": {
+    "info": "1 range, 1 AoE, 3 CT, 24 MP. Effect: Damage (PA * (WP + 2)); Chance to Add Silence.",
+    "name": "Surging Sword",
+    "type": "active",
+  },
+  "Swim": {
+    "info": "Movement. Move through water without penalty.",
+    "name": "Swim",
+    "type": "move",
+  },
+  "Sword": {
+    "info": "movement range, 0 AoE. Effect: Throw Sword Damage (Speed * ThrownWP).",
+    "name": "Sword",
+    "type": "active",
+  },
+  "Tackle": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Tackle",
+    "type": "active",
+  },
+  "Tail Swing": {
+    "info": "1 range, 0 AoE. Effect: Damage (Random(1-15) * PA); Chance to Knockback.",
+    "name": "Tail Swing",
+    "type": "active",
+  },
+  "Teleport": {
+    "info": "Movement. Teleport directly instead of walking.",
+    "name": "Teleport",
+    "type": "move",
+  },
+  "Teleport 2": {
+    "info": "Movement. Teleport directly instead of walking with infinite range.",
+    "name": "Teleport 2",
+    "type": "move",
+  },
+  "Tendrils": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack; Chance to Add Slow.",
+    "name": "Tendrils",
+    "type": "active",
+  },
+  "Tentacle": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Tentacle",
+    "type": "active",
+  },
+  "Threaten": {
+    "info": "4 range, 0 AoE. Hit: (MA + 90)%. Effect: -20 Brave.",
+    "name": "Threaten",
+    "type": "active",
+  },
+  "Throw Item": {
+    "info": "Support. Increases range of items to 4.",
+    "name": "Throw Item",
+    "type": "support",
+  },
+  "Throw Spirit": {
+    "info": "3 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Throw Spirit",
+    "type": "active",
+  },
+  "Throw Stone": {
+    "info": "4 range, 0 AoE. Effect: Damage (Random(1-2) * PA); Chance to Knockback.",
+    "name": "Throw Stone",
+    "type": "active",
+  },
+  "Thunder Breath": {
+    "info": "2 range, 2 AoE (line). Element: Lightning. Effect: Damage (MA * 5).",
+    "name": "Thunder Breath",
+    "type": "active",
+  },
+  "Thunder Soul": {
+    "info": "3 range, 0 AoE. Element: Lightning. Effect: Damage (MA * 3).",
+    "name": "Thunder Soul",
+    "type": "active",
+  },
+  "Tickle": {
+    "info": "1 range, 0 AoE. Hit: (MA + 55)%. Effect: Cancel Charging, Defending, Performing, Confusion, Charm, Sleep.",
+    "name": "Tickle",
+    "type": "active",
+  },
+  "Titan": {
+    "info": "4 range, 2 AoE, 5 CT, 30 MP. Element: Earth. Effect: Damage Faith(MA * 28).",
+    "name": "Titan",
+    "type": "active",
+  },
+  "Toot": {
+    "info": "1 range, 0 AoE. Effect: Add Confusion, Sleep (Random).",
+    "name": "Toot",
+    "type": "active",
+  },
+  "Toxic Frog": {
+    "info": "4 range, 2 AoE, 2 CT. Hit: Faith(MA + 106)%. Effect: Add Frog, Poison (All).",
+    "name": "Toxic Frog",
+    "type": "active",
+  },
+  "Triple Attack": {
+    "info": "1 range, 1 AoE (x3 line). Effect: Normal Attack.",
+    "name": "Triple Attack",
+    "type": "active",
+  },
+  "Triple Breath": {
+    "info": "2 range, 2 AoE (x3 line). Hit: (MA + 90)%. Effect: Damage (45)%.",
+    "name": "Triple Breath",
+    "type": "active",
+  },
+  "Triple Flame": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Fire. Hit: 3 times. Effect: Damage ((MA + 20) / 2 * MA).",
+    "name": "Triple Flame",
+    "type": "active",
+  },
+  "Triple Thunder": {
+    "info": "4 range, 1 AoE, 3 CT, 10 MP. Element: Lightning. Hit: 3 times. Effect: Damage ((MA + 12) / 2 * MA).",
+    "name": "Triple Thunder",
+    "type": "active",
+  },
+  "Turn Punch": {
+    "info": "0 range, 1 AoE. Effect: Damage (PA / 2 * PA).",
+    "name": "Turn Punch",
+    "type": "active",
+  },
+  "Ulmaguest": {
+    "info": "4 range, 2 AoE. Effect: Damage (CasterMaxHP - CasterCurrentHP).",
+    "name": "Ulmaguest",
+    "type": "active",
+  },
+  "Ultima": {
+    "info": "5 range, 1 AoE, 5 CT, 10 MP. Element: Holy. Effect: Damage Faith(MA * 25).",
+    "name": "Ultima",
+    "type": "active",
+  },
+  "Vengeance": {
+    "info": "5 range, 0 AoE. EffecT: Damage (CasterMaxHP - CasterCurrentHP).",
+    "name": "Vengeance",
+    "type": "active",
+  },
+  "Vertical Jump2": {
+    "info": "Sets vertical jump range to 2.",
+    "name": "Vertical Jump2",
+    "type": "active",
+  },
+  "Vertical Jump3": {
+    "info": "Sets vertical jump range to 3.",
+    "name": "Vertical Jump3",
+    "type": "active",
+  },
+  "Vertical Jump4": {
+    "info": "Sets vertical jump range to 4.",
+    "name": "Vertical Jump4",
+    "type": "active",
+  },
+  "Vertical Jump5": {
+    "info": "Sets vertical jump range to 5.",
+    "name": "Vertical Jump5",
+    "type": "active",
+  },
+  "Vertical Jump6": {
+    "info": "Sets vertical jump range to 6.",
+    "name": "Vertical Jump6",
+    "type": "active",
+  },
+  "Vertical Jump7": {
+    "info": "Sets vertical jump range to 7.",
+    "name": "Vertical Jump7",
+    "type": "active",
+  },
+  "Vertical Jump8": {
+    "info": "Sets vertical jump range to 8.",
+    "name": "Vertical Jump8",
+    "type": "active",
+  },
+  "Void Storage": {
+    "info": "4 range, 1 AoE, 4 CT, 20 MP. Element: Dark. Hit: Random(1-9) times. Effect: Damage ((100 - CasterFaith) * (100 - TargetFaith) * (MA + 39) * MA / 2); Chance to Add Darkness, Confusion, Silence, Frog, Poison, Slow, Sleep (Random).",
+    "name": "Void Storage",
+    "type": "active",
+  },
+  "Wall": {
+    "info": "4 range, 1 AoE, 4 CT, 24 MP. Hit: Faith(MA + 140)%. Effect: Add Protect, Shell (All).",
+    "name": "Wall",
+    "type": "active",
+  },
+  "Wand": {
+    "info": "movement range, 0 AoE. Effect: Throw Rod Damage (Speed * ThrownWP).",
+    "name": "Wand",
+    "type": "active",
+  },
+  "Water Ball": {
+    "info": "5 range, 1 AoE. Terrain: Canal, River, Lake, Ocean, Waterfall. Element: Water. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Frog.",
+    "name": "Water Ball",
+    "type": "active",
+  },
+  "Waterbreathing": {
+    "info": "Movement. Move through and even stand in water without penalty.",
+    "name": "Waterbreathing",
+    "type": "move",
+  },
+  "Waterwalking": {
+    "info": "Movement. Move and stand on top of water.",
+    "name": "Waterwalking",
+    "type": "move",
+  },
+  "Wave Around": {
+    "info": "0 range, 1 AoE. Element: Lightning. Effect: Damage ((PA + 1) / 2 * PA).",
+    "name": "Wave Around",
+    "type": "active",
+  },
+  "Wave Fist": {
+    "info": "3 range, 0 AoE. Element: Wind. Effect: Damage ((PA + 2) / 2 * PA).",
+    "name": "Wave Fist",
+    "type": "active",
+  },
+  "Weapon Break": {
+    "info": "weapon range, 0 AoE. Hit: (PA + WP + 30)%. Effect: Break target's weapon. If none, attack instead.",
+    "name": "Weapon Break",
+    "type": "active",
+  },
+  "Will-O-Wisp": {
+    "info": "5 range, 1 AoE. Terrain: Wood Floor, Carpet, Coffer, Stairs, Deck. Element: Fire. Effect: Damage ((PA + 2) / 2 * MA); Chance to Add Sleep.",
+    "name": "Will-O-Wisp",
+    "type": "active",
+  },
+  "Wind Soul": {
+    "info": "3 range, 0 AoE. Element: Wind. Effect: Damage (MA * 4).",
+    "name": "Wind Soul",
+    "type": "active",
+  },
+  "Wing Attack": {
+    "info": "1 range, 0 AoE. Effect: Normal Attack.",
+    "name": "Wing Attack",
+    "type": "active",
+  },
+  "Wish": {
+    "info": "1 range, 0 AoE. Effect: Heal (CasterMaxHP * 2 / 5); DamageCaster (CasterMaxHP / 5).",
+    "name": "Wish",
+    "type": "active",
+  },
+  "Witch Hunt": {
+    "info": "0 range, 255 AoE, 5 CT.  Effect: DamageMP (PA + (PA * Brave) / 100).",
+    "name": "Witch Hunt",
+    "type": "active",
+  },
+  "Wiznaibus": {
+    "info": "0 range, 255 AoE, 6 CT.  Effect: Damage (PA + (PA * Brave) / 100).",
+    "name": "Wiznaibus",
+    "type": "active",
+  },
+  "X-Potion": {
+    "info": "Heals 150 HP.",
+    "name": "X-Potion",
+    "type": "active",
+  },
+  "Yell": {
+    "info": "3 range, 0 AoE. Effect: +1 Speed.",
+    "name": "Yell",
+    "type": "active",
+  },
+  "Zodiac": {
+    "info": "4 range, 3 AoE, 10 CT, 99 MP. Effect: Damage Faith(MA * 90).",
+    "name": "Zodiac",
+    "type": "active",
+  },
+  "Zombie": {
+    "info": "5 range, 0 AoE, 5 CT, 20 MP. Hit: Faith(MA + 105)%. Effect: Add Undead.",
+    "name": "Zombie",
+    "type": "active",
+  },
+  "Zombie Touch": {
+    "info": "1 range, 0 AoE. Hit: (MA + 45)%. Effect: Add Undead.",
+    "name": "Zombie Touch",
+    "type": "active",
+  },
+}
+`;

@@ -6,33 +6,15 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "brave": "54",
     "class": "Calculator",
     "equipment": [
-      {
-        "name": "Battle Bamboo",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Black Hood",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Clothes",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Jade Armlet",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Battle Bamboo",
+      "Black Hood",
+      "Clothes",
+      "Jade Armlet",
     ],
     "faith": "59",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Blue Magic",
-      },
+      "Blue Magic",
     ],
     "moveSkill": "Move+2",
     "name": "MixReveal",
@@ -40,21 +22,11 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "raw": "MixReveal - Female - Cancer - 54 - 59 - Calculator - Ghost Skill - HP Restore - Magic Attack UP - Move+2 - Battle Bamboo - Black Hood - Clothes - Jade Armlet - Blue Magic - Throw Spirit, Drain Touch, Zombie Touch, Sleep Touch, Grease Touch",
     "reactSkill": "HP Restore",
     "subAbilities": [
-      {
-        "name": "Throw Spirit",
-      },
-      {
-        "name": "Drain Touch",
-      },
-      {
-        "name": "Zombie Touch",
-      },
-      {
-        "name": "Sleep Touch",
-      },
-      {
-        "name": "Grease Touch",
-      },
+      "Throw Spirit",
+      "Drain Touch",
+      "Zombie Touch",
+      "Sleep Touch",
+      "Grease Touch",
     ],
     "subSkill": "Ghost Skill",
     "supportSkill": "Magic Attack UP",
@@ -65,50 +37,20 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "brave": "69",
     "class": "Chemist",
     "equipment": [
-      {
-        "name": "Orichalcum",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Hydra Bag",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Barette",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Rubber Costume",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Battle Boots",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Orichalcum",
+      "Hydra Bag",
+      "Barette",
+      "Rubber Costume",
+      "Battle Boots",
     ],
     "faith": "51",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Potion",
-      },
-      {
-        "name": "Hi-Ether",
-      },
-      {
-        "name": "Antidote",
-      },
-      {
-        "name": "Holy Water",
-      },
-      {
-        "name": "Remedy",
-      },
+      "Potion",
+      "Hi-Ether",
+      "Antidote",
+      "Holy Water",
+      "Remedy",
     ],
     "moveSkill": "Jump+2",
     "name": "WhiteTigress",
@@ -116,18 +58,10 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "raw": "WhiteTigress - Female - Pisces - 69 - 51 - Chemist - Basic Skill - Earplug - Dual Wield - Jump+2 - Orichalcum - Hydra Bag - Barette - Rubber Costume - Battle Boots - Potion, Hi-Ether, Antidote, Holy Water, Remedy - Heal, Cheer Up, Wish, Scream",
     "reactSkill": "Earplug",
     "subAbilities": [
-      {
-        "name": "Heal",
-      },
-      {
-        "name": "Cheer Up",
-      },
-      {
-        "name": "Wish",
-      },
-      {
-        "name": "Scream",
-      },
+      "Heal",
+      "Cheer Up",
+      "Wish",
+      "Scream",
     ],
     "subSkill": "Basic Skill",
     "supportSkill": "Dual Wield",
@@ -138,41 +72,17 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "brave": "57",
     "class": "Lancer",
     "equipment": [
-      {
-        "name": "Dragon Whisker",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Gold Shield",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Genji Helmet",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Diamond Armor",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "108 Gems",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Dragon Whisker",
+      "Gold Shield",
+      "Genji Helmet",
+      "Diamond Armor",
+      "108 Gems",
     ],
     "faith": "70",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Level Jump8",
-      },
-      {
-        "name": "Vertical Jump3",
-      },
+      "Level Jump8",
+      "Vertical Jump3",
     ],
     "moveSkill": "Jump+3",
     "name": "Tursup",
@@ -180,12 +90,8 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "raw": "Tursup - Male - Aries - 57 - 70 - Lancer - Draw Out - Counter - Equip Bow - Jump+3 - Dragon Whisker - Gold Shield - Genji Helmet - Diamond Armor - 108 Gems - Level Jump8, Vertical Jump3 - Koutetsu, Heaven's Cloud",
     "reactSkill": "Counter",
     "subAbilities": [
-      {
-        "name": "Koutetsu",
-      },
-      {
-        "name": "Heaven's Cloud",
-      },
+      "Koutetsu",
+      "Heaven's Cloud",
     ],
     "subSkill": "Draw Out",
     "supportSkill": "Equip Bow",
@@ -196,44 +102,18 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "brave": "68",
     "class": "Knight",
     "equipment": [
-      {
-        "name": "Broad Sword",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Diamond Shield",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Diamond Helmet",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Linen Robe",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Reflect Ring",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Broad Sword",
+      "Diamond Shield",
+      "Diamond Helmet",
+      "Linen Robe",
+      "Reflect Ring",
     ],
     "faith": "74",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Shield Break",
-      },
-      {
-        "name": "Mind Break",
-      },
-      {
-        "name": "Dark Sword",
-      },
+      "Shield Break",
+      "Mind Break",
+      "Dark Sword",
     ],
     "moveSkill": "Ignore Height",
     "name": "DerangedShadow",
@@ -241,12 +121,8 @@ exports[`loadTeamFromString > loads the black team correctly 1`] = `
     "raw": "DerangedShadow - Female - Capricorn - 68 - 74 - Knight - Punch Art - Parry - Attack UP - Ignore Height - Broad Sword - Diamond Shield - Diamond Helmet - Linen Robe - Reflect Ring - Shield Break, Mind Break, Dark Sword - Purification, Revive",
     "reactSkill": "Parry",
     "subAbilities": [
-      {
-        "name": "Purification",
-      },
-      {
-        "name": "Revive",
-      },
+      "Purification",
+      "Revive",
     ],
     "subSkill": "Punch Art",
     "supportSkill": "Attack UP",
@@ -262,28 +138,14 @@ exports[`loadTeamFromString > loads the blue team correctly 1`] = `
     "brave": "65",
     "class": "Mime",
     "equipment": [
-      {
-        "name": "Golden Hairpin",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Leather Outfit",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Defense Armlet",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Golden Hairpin",
+      "Leather Outfit",
+      "Defense Armlet",
     ],
     "faith": "52",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Mimic",
-      },
+      "Mimic",
     ],
     "moveSkill": "Waterbreathing",
     "name": "Felbourne",
@@ -300,33 +162,15 @@ exports[`loadTeamFromString > loads the blue team correctly 1`] = `
     "brave": "67",
     "class": "Mime",
     "equipment": [
-      {
-        "name": "Crystal Shield",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Black Hood",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Leather Outfit",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Defense Ring",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Crystal Shield",
+      "Black Hood",
+      "Leather Outfit",
+      "Defense Ring",
     ],
     "faith": "46",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Mimic",
-      },
+      "Mimic",
     ],
     "moveSkill": "Waterwalking",
     "name": "RagequitSA",
@@ -343,51 +187,21 @@ exports[`loadTeamFromString > loads the blue team correctly 1`] = `
     "brave": "76",
     "class": "Thief",
     "equipment": [
-      {
-        "name": "Assassin Dagger",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Flash Hat",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Black Costume",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Battle Boots",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Assassin Dagger",
+      "Flash Hat",
+      "Black Costume",
+      "Battle Boots",
     ],
     "faith": "64",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Gil Taking",
-      },
-      {
-        "name": "Steal Heart",
-      },
-      {
-        "name": "Steal Helmet",
-      },
-      {
-        "name": "Steal Armor",
-      },
-      {
-        "name": "Steal Weapon",
-      },
-      {
-        "name": "Steal Accessory",
-      },
-      {
-        "name": "Leg Aim",
-      },
+      "Gil Taking",
+      "Steal Heart",
+      "Steal Helmet",
+      "Steal Armor",
+      "Steal Weapon",
+      "Steal Accessory",
+      "Leg Aim",
     ],
     "moveSkill": "Levitate",
     "name": "Wackman3000",
@@ -395,39 +209,17 @@ exports[`loadTeamFromString > loads the blue team correctly 1`] = `
     "raw": "Wackman3000 - Female - Taurus - 76 - 64 - Thief - Elemental - Distribute - Equip Gun - Levitate - Assassin Dagger - Flash Hat - Black Costume - Battle Boots - Gil Taking, Steal Heart, Steal Helmet, Steal Armor, Steal Weapon, Steal Accessory, Leg Aim - Pitfall, Hell Ivy, Hallowed Ground, Local Quake, Static Shock, Will-O-Wisp, Quicksand, Sand Storm, Blizzard, Gusty Wind, Lava Ball",
     "reactSkill": "Distribute",
     "subAbilities": [
-      {
-        "name": "Pitfall",
-      },
-      {
-        "name": "Hell Ivy",
-      },
-      {
-        "name": "Hallowed Ground",
-      },
-      {
-        "name": "Local Quake",
-      },
-      {
-        "name": "Static Shock",
-      },
-      {
-        "name": "Will-O-Wisp",
-      },
-      {
-        "name": "Quicksand",
-      },
-      {
-        "name": "Sand Storm",
-      },
-      {
-        "name": "Blizzard",
-      },
-      {
-        "name": "Gusty Wind",
-      },
-      {
-        "name": "Lava Ball",
-      },
+      "Pitfall",
+      "Hell Ivy",
+      "Hallowed Ground",
+      "Local Quake",
+      "Static Shock",
+      "Will-O-Wisp",
+      "Quicksand",
+      "Sand Storm",
+      "Blizzard",
+      "Gusty Wind",
+      "Lava Ball",
     ],
     "subSkill": "Elemental",
     "supportSkill": "Equip Gun",
@@ -438,53 +230,21 @@ exports[`loadTeamFromString > loads the blue team correctly 1`] = `
     "brave": "50",
     "class": "Chemist",
     "equipment": [
-      {
-        "name": "Romanda Gun",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Mythril Gun",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Headgear",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Chain Vest",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Dracula Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Romanda Gun",
+      "Mythril Gun",
+      "Headgear",
+      "Chain Vest",
+      "Dracula Mantle",
     ],
     "faith": "74",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Potion",
-      },
-      {
-        "name": "Hi-Potion",
-      },
-      {
-        "name": "X-Potion",
-      },
-      {
-        "name": "Soft",
-      },
-      {
-        "name": "Holy Water",
-      },
-      {
-        "name": "Phoenix Down",
-      },
+      "Potion",
+      "Hi-Potion",
+      "X-Potion",
+      "Soft",
+      "Holy Water",
+      "Phoenix Down",
     ],
     "moveSkill": "Move-HP Up",
     "name": "ChiefChiefman",
@@ -492,21 +252,11 @@ exports[`loadTeamFromString > loads the blue team correctly 1`] = `
     "raw": "ChiefChiefman - Male - Cancer - 50 - 74 - Chemist - Elemental - MP Restore - Dual Wield - Move-HP Up - Romanda Gun - Mythril Gun - Headgear - Chain Vest - Dracula Mantle - Potion, Hi-Potion, X-Potion, Soft, Holy Water, Phoenix Down - Pitfall, Water Ball, Hallowed Ground, Will-O-Wisp, Blizzard",
     "reactSkill": "MP Restore",
     "subAbilities": [
-      {
-        "name": "Pitfall",
-      },
-      {
-        "name": "Water Ball",
-      },
-      {
-        "name": "Hallowed Ground",
-      },
-      {
-        "name": "Will-O-Wisp",
-      },
-      {
-        "name": "Blizzard",
-      },
+      "Pitfall",
+      "Water Ball",
+      "Hallowed Ground",
+      "Will-O-Wisp",
+      "Blizzard",
     ],
     "subSkill": "Elemental",
     "supportSkill": "Dual Wield",
@@ -540,42 +290,18 @@ exports[`loadTeamFromString > loads the brown team correctly 1`] = `
     "brave": "76",
     "class": "Squire",
     "equipment": [
-      {
-        "name": "Cross Bow",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Black Hood",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Chain Vest",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "108 Gems",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Cross Bow",
+      "Black Hood",
+      "Chain Vest",
+      "108 Gems",
     ],
     "faith": "50",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Accumulate",
-      },
-      {
-        "name": "Throw Stone",
-      },
-      {
-        "name": "Heal",
-      },
-      {
-        "name": "Tickle",
-      },
+      "Accumulate",
+      "Throw Stone",
+      "Heal",
+      "Tickle",
     ],
     "moveSkill": "Move+1",
     "name": "MaouDono",
@@ -583,18 +309,10 @@ exports[`loadTeamFromString > loads the brown team correctly 1`] = `
     "raw": "MaouDono - Male - Taurus - 76 - 50 - Squire - Sing - Blade Grasp - Beastmaster - Move+1 - Cross Bow - Black Hood - Chain Vest - 108 Gems - Accumulate, Throw Stone, Heal, Tickle - Life Song, Cheer Song, Nameless Song, Space Storage",
     "reactSkill": "Blade Grasp",
     "subAbilities": [
-      {
-        "name": "Life Song",
-      },
-      {
-        "name": "Cheer Song",
-      },
-      {
-        "name": "Nameless Song",
-      },
-      {
-        "name": "Space Storage",
-      },
+      "Life Song",
+      "Cheer Song",
+      "Nameless Song",
+      "Space Storage",
     ],
     "subSkill": "Sing",
     "supportSkill": "Beastmaster",
@@ -605,41 +323,17 @@ exports[`loadTeamFromString > loads the brown team correctly 1`] = `
     "brave": "74",
     "class": "Chemist",
     "equipment": [
-      {
-        "name": "Cute Bag",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Cultist Dagger",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Green Beret",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Leather Outfit",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Germinas Boots",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Cute Bag",
+      "Cultist Dagger",
+      "Green Beret",
+      "Leather Outfit",
+      "Germinas Boots",
     ],
     "faith": "62",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Potion",
-      },
-      {
-        "name": "Holy Water",
-      },
+      "Potion",
+      "Holy Water",
     ],
     "moveSkill": "Ignore Terrain",
     "name": "SweetHat",
@@ -647,18 +341,10 @@ exports[`loadTeamFromString > loads the brown team correctly 1`] = `
     "raw": "SweetHat - Female - Cancer - 74 - 62 - Chemist - Charge - Absorb Used MP - Dual Wield - Ignore Terrain - Cute Bag - Cultist Dagger - Green Beret - Leather Outfit - Germinas Boots - Potion, Holy Water - Charge+2, Charge+5, Charge+7, Charge+10",
     "reactSkill": "Absorb Used MP",
     "subAbilities": [
-      {
-        "name": "Charge+2",
-      },
-      {
-        "name": "Charge+5",
-      },
-      {
-        "name": "Charge+7",
-      },
-      {
-        "name": "Charge+10",
-      },
+      "Charge+2",
+      "Charge+5",
+      "Charge+7",
+      "Charge+10",
     ],
     "subSkill": "Charge",
     "supportSkill": "Dual Wield",
@@ -692,44 +378,18 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "brave": "45",
     "class": "Archer",
     "equipment": [
-      {
-        "name": "Blaze Gun",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Crystal Shield",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Flash Hat",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Power Sleeve",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Feather Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Blaze Gun",
+      "Crystal Shield",
+      "Flash Hat",
+      "Power Sleeve",
+      "Feather Mantle",
     ],
     "faith": "72",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Charge+4",
-      },
-      {
-        "name": "Charge+10",
-      },
-      {
-        "name": "Charge+20",
-      },
+      "Charge+4",
+      "Charge+10",
+      "Charge+20",
     ],
     "moveSkill": "Ignore Terrain",
     "name": "Roamer31",
@@ -737,18 +397,10 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "raw": "Roamer31 - Male - Scorpio - 45 - 72 - Archer - Basic Skill - Distribute - Magic Attack UP - Ignore Terrain - Blaze Gun - Crystal Shield - Flash Hat - Power Sleeve - Feather Mantle - Charge+4, Charge+10, Charge+20 - Accumulate, Dash, Heal, Scream",
     "reactSkill": "Distribute",
     "subAbilities": [
-      {
-        "name": "Accumulate",
-      },
-      {
-        "name": "Dash",
-      },
-      {
-        "name": "Heal",
-      },
-      {
-        "name": "Scream",
-      },
+      "Accumulate",
+      "Dash",
+      "Heal",
+      "Scream",
     ],
     "subSkill": "Basic Skill",
     "supportSkill": "Magic Attack UP",
@@ -759,54 +411,22 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "brave": "70",
     "class": "Chemist",
     "equipment": [
-      {
-        "name": "Hydra Bag",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Twist Headband",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Power Sleeve",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Feather Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Hydra Bag",
+      "Twist Headband",
+      "Power Sleeve",
+      "Feather Mantle",
     ],
     "faith": "63",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Potion",
-      },
-      {
-        "name": "X-Potion",
-      },
-      {
-        "name": "Hi-Ether",
-      },
-      {
-        "name": "Antidote",
-      },
-      {
-        "name": "Eye Drop",
-      },
-      {
-        "name": "Maiden's Kiss",
-      },
-      {
-        "name": "Soft",
-      },
-      {
-        "name": "Phoenix Down",
-      },
+      "Potion",
+      "X-Potion",
+      "Hi-Ether",
+      "Antidote",
+      "Eye Drop",
+      "Maiden's Kiss",
+      "Soft",
+      "Phoenix Down",
     ],
     "moveSkill": "Levitate",
     "name": "Koryiaki",
@@ -814,30 +434,14 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "raw": "Koryiaki - Female - Cancer - 70 - 63 - Chemist - Time Magic - PA Save - Halve MP - Levitate - Hydra Bag - Twist Headband - Power Sleeve - Feather Mantle - Potion, X-Potion, Hi-Ether, Antidote, Eye Drop, Maiden's Kiss, Soft, Phoenix Down - Haste, Haste 2, Slow, Immobilize, Quick, Demi, Demi 2, Stabilize Time",
     "reactSkill": "PA Save",
     "subAbilities": [
-      {
-        "name": "Haste",
-      },
-      {
-        "name": "Haste 2",
-      },
-      {
-        "name": "Slow",
-      },
-      {
-        "name": "Immobilize",
-      },
-      {
-        "name": "Quick",
-      },
-      {
-        "name": "Demi",
-      },
-      {
-        "name": "Demi 2",
-      },
-      {
-        "name": "Stabilize Time",
-      },
+      "Haste",
+      "Haste 2",
+      "Slow",
+      "Immobilize",
+      "Quick",
+      "Demi",
+      "Demi 2",
+      "Stabilize Time",
     ],
     "subSkill": "Time Magic",
     "supportSkill": "Halve MP",
@@ -848,42 +452,18 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "brave": "56",
     "class": "Knight",
     "equipment": [
-      {
-        "name": "Defender",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Genji Helmet",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Linen Robe",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Leather Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Defender",
+      "Genji Helmet",
+      "Linen Robe",
+      "Leather Mantle",
     ],
     "faith": "73",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Weapon Break",
-      },
-      {
-        "name": "Speed Break",
-      },
-      {
-        "name": "Mind Break",
-      },
-      {
-        "name": "Stasis Sword",
-      },
+      "Weapon Break",
+      "Speed Break",
+      "Mind Break",
+      "Stasis Sword",
     ],
     "moveSkill": "Move+1",
     "name": "Wackman3000",
@@ -891,15 +471,9 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "raw": "Wackman3000 - Female - Libra - 56 - 73 - Knight - Charge - Abandon - Sicken - Move+1 - Defender - Genji Helmet - Linen Robe - Leather Mantle - Weapon Break, Speed Break, Mind Break, Stasis Sword - Charge+2, Charge+3, Charge+5",
     "reactSkill": "Abandon",
     "subAbilities": [
-      {
-        "name": "Charge+2",
-      },
-      {
-        "name": "Charge+3",
-      },
-      {
-        "name": "Charge+5",
-      },
+      "Charge+2",
+      "Charge+3",
+      "Charge+5",
     ],
     "subSkill": "Charge",
     "supportSkill": "Sicken",
@@ -910,38 +484,16 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "brave": "54",
     "class": "Ninja",
     "equipment": [
-      {
-        "name": "Asura Knife",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Kikuichimoji",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Red Hood",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Mythril Vest",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Germinas Boots",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Asura Knife",
+      "Kikuichimoji",
+      "Red Hood",
+      "Mythril Vest",
+      "Germinas Boots",
     ],
     "faith": "65",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Shuriken",
-      },
+      "Shuriken",
     ],
     "moveSkill": "Move+3",
     "name": "Grininda",
@@ -949,18 +501,10 @@ exports[`loadTeamFromString > loads the champion team correctly 1`] = `
     "raw": "Grininda - Male - Gemini - 54 - 65 - Ninja - Charge - Hamedo - Equip Sword - Move+3 - Asura Knife - Kikuichimoji - Red Hood - Mythril Vest - Germinas Boots - Shuriken - Charge+1, Charge+3, Charge+4, Charge+10",
     "reactSkill": "Hamedo",
     "subAbilities": [
-      {
-        "name": "Charge+1",
-      },
-      {
-        "name": "Charge+3",
-      },
-      {
-        "name": "Charge+4",
-      },
-      {
-        "name": "Charge+10",
-      },
+      "Charge+1",
+      "Charge+3",
+      "Charge+4",
+      "Charge+10",
     ],
     "subSkill": "Charge",
     "supportSkill": "Equip Sword",
@@ -976,59 +520,23 @@ exports[`loadTeamFromString > loads the green team correctly 1`] = `
     "brave": "67",
     "class": "Geomancer",
     "equipment": [
-      {
-        "name": "Sleep Sword",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Crystal Shield",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Golden Hairpin",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "White Robe",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Wizard Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Sleep Sword",
+      "Crystal Shield",
+      "Golden Hairpin",
+      "White Robe",
+      "Wizard Mantle",
     ],
     "faith": "70",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Pitfall",
-      },
-      {
-        "name": "Water Ball",
-      },
-      {
-        "name": "Hell Ivy",
-      },
-      {
-        "name": "Local Quake",
-      },
-      {
-        "name": "Sand Storm",
-      },
-      {
-        "name": "Blizzard",
-      },
-      {
-        "name": "Gusty Wind",
-      },
-      {
-        "name": "Lava Ball",
-      },
+      "Pitfall",
+      "Water Ball",
+      "Hell Ivy",
+      "Local Quake",
+      "Sand Storm",
+      "Blizzard",
+      "Gusty Wind",
+      "Lava Ball",
     ],
     "moveSkill": "Levitate",
     "name": "Kithmar796",
@@ -1036,33 +544,15 @@ exports[`loadTeamFromString > loads the green team correctly 1`] = `
     "raw": "Kithmar796 - Female - Libra - 67 - 70 - Geomancer - Item - Faith Up - Magic Defense UP - Levitate - Sleep Sword - Crystal Shield - Golden Hairpin - White Robe - Wizard Mantle - Pitfall, Water Ball, Hell Ivy, Local Quake, Sand Storm, Blizzard, Gusty Wind, Lava Ball - Potion, Hi-Potion, X-Potion, Antidote, Eye Drop, Echo Grass, Maiden's Kiss, Soft, Phoenix Down",
     "reactSkill": "Faith Up",
     "subAbilities": [
-      {
-        "name": "Potion",
-      },
-      {
-        "name": "Hi-Potion",
-      },
-      {
-        "name": "X-Potion",
-      },
-      {
-        "name": "Antidote",
-      },
-      {
-        "name": "Eye Drop",
-      },
-      {
-        "name": "Echo Grass",
-      },
-      {
-        "name": "Maiden's Kiss",
-      },
-      {
-        "name": "Soft",
-      },
-      {
-        "name": "Phoenix Down",
-      },
+      "Potion",
+      "Hi-Potion",
+      "X-Potion",
+      "Antidote",
+      "Eye Drop",
+      "Echo Grass",
+      "Maiden's Kiss",
+      "Soft",
+      "Phoenix Down",
     ],
     "subSkill": "Item",
     "supportSkill": "Magic Defense UP",
@@ -1091,41 +581,17 @@ exports[`loadTeamFromString > loads the green team correctly 1`] = `
     "brave": "59",
     "class": "Ninja",
     "equipment": [
-      {
-        "name": "Dagger",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Ninja Edge",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Twist Headband",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Clothes",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Power Wrist",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Dagger",
+      "Ninja Edge",
+      "Twist Headband",
+      "Clothes",
+      "Power Wrist",
     ],
     "faith": "63",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Bomb",
-      },
-      {
-        "name": "Knife",
-      },
+      "Bomb",
+      "Knife",
     ],
     "moveSkill": "Retreat",
     "name": "HughJeffner",
@@ -1133,18 +599,10 @@ exports[`loadTeamFromString > loads the green team correctly 1`] = `
     "raw": "HughJeffner - Female - Aries - 59 - 63 - Ninja - Draw Out - Counter - Concentrate - Retreat - Dagger - Ninja Edge - Twist Headband - Clothes - Power Wrist - Bomb, Knife - Asura, Koutetsu, Bizen Boat, Kiyomori",
     "reactSkill": "Counter",
     "subAbilities": [
-      {
-        "name": "Asura",
-      },
-      {
-        "name": "Koutetsu",
-      },
-      {
-        "name": "Bizen Boat",
-      },
-      {
-        "name": "Kiyomori",
-      },
+      "Asura",
+      "Koutetsu",
+      "Bizen Boat",
+      "Kiyomori",
     ],
     "subSkill": "Draw Out",
     "supportSkill": "Concentrate",
@@ -1155,53 +613,21 @@ exports[`loadTeamFromString > loads the green team correctly 1`] = `
     "brave": "46",
     "class": "Chemist",
     "equipment": [
-      {
-        "name": "Main Gauche",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Panther Bag",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Twist Headband",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Adaman Vest",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Magic Gauntlet",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Main Gauche",
+      "Panther Bag",
+      "Twist Headband",
+      "Adaman Vest",
+      "Magic Gauntlet",
     ],
     "faith": "74",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Potion",
-      },
-      {
-        "name": "Ether",
-      },
-      {
-        "name": "Hi-Ether",
-      },
-      {
-        "name": "Antidote",
-      },
-      {
-        "name": "Maiden's Kiss",
-      },
-      {
-        "name": "Phoenix Down",
-      },
+      "Potion",
+      "Ether",
+      "Hi-Ether",
+      "Antidote",
+      "Maiden's Kiss",
+      "Phoenix Down",
     ],
     "moveSkill": "Jump+1",
     "name": "Tikotikotiko",
@@ -1209,24 +635,12 @@ exports[`loadTeamFromString > loads the green team correctly 1`] = `
     "raw": "Tikotikotiko - Female - Gemini - 46 - 74 - Chemist - Yin Yang Magic - PA Save - Dual Wield - Jump+1 - Main Gauche - Panther Bag - Twist Headband - Adaman Vest - Magic Gauntlet - Potion, Ether, Hi-Ether, Antidote, Maiden's Kiss, Phoenix Down - Poison, Confusion Song, Dispel Magic, Paralyze, Sleep, Dark Holy",
     "reactSkill": "PA Save",
     "subAbilities": [
-      {
-        "name": "Poison",
-      },
-      {
-        "name": "Confusion Song",
-      },
-      {
-        "name": "Dispel Magic",
-      },
-      {
-        "name": "Paralyze",
-      },
-      {
-        "name": "Sleep",
-      },
-      {
-        "name": "Dark Holy",
-      },
+      "Poison",
+      "Confusion Song",
+      "Dispel Magic",
+      "Paralyze",
+      "Sleep",
+      "Dark Holy",
     ],
     "subSkill": "Yin Yang Magic",
     "supportSkill": "Dual Wield",
@@ -1260,39 +674,17 @@ exports[`loadTeamFromString > loads the purple team correctly 1`] = `
     "brave": "40",
     "class": "Thief",
     "equipment": [
-      {
-        "name": "Broad Sword",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Headgear",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Judo Outfit",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Leather Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Broad Sword",
+      "Headgear",
+      "Judo Outfit",
+      "Leather Mantle",
     ],
     "faith": "60",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Steal Weapon",
-      },
-      {
-        "name": "Steal Status",
-      },
-      {
-        "name": "Arm Aim",
-      },
+      "Steal Weapon",
+      "Steal Status",
+      "Arm Aim",
     ],
     "moveSkill": "Lava Walking",
     "name": "Super Robo Mg",
@@ -1300,18 +692,10 @@ exports[`loadTeamFromString > loads the purple team correctly 1`] = `
     "raw": "Super Robo Mg - Female - Gemini - 40 - 60 - Thief - Basic Skill - Blade Grasp - Magic Defense UP - Lava Walking - Broad Sword - Headgear - Judo Outfit - Leather Mantle - Steal Weapon, Steal Status, Arm Aim - Throw Stone, Heal, Tickle, Wish",
     "reactSkill": "Blade Grasp",
     "subAbilities": [
-      {
-        "name": "Throw Stone",
-      },
-      {
-        "name": "Heal",
-      },
-      {
-        "name": "Tickle",
-      },
-      {
-        "name": "Wish",
-      },
+      "Throw Stone",
+      "Heal",
+      "Tickle",
+      "Wish",
     ],
     "subSkill": "Basic Skill",
     "supportSkill": "Magic Defense UP",
@@ -1340,47 +724,19 @@ exports[`loadTeamFromString > loads the purple team correctly 1`] = `
     "brave": "80",
     "class": "Archer",
     "equipment": [
-      {
-        "name": "Heaven's Cloud",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Crystal Shield",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Flash Hat",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Brigandine",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "N-Kai Armlet",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Heaven's Cloud",
+      "Crystal Shield",
+      "Flash Hat",
+      "Brigandine",
+      "N-Kai Armlet",
     ],
     "faith": "80",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Charge+1",
-      },
-      {
-        "name": "Charge+2",
-      },
-      {
-        "name": "Charge+4",
-      },
-      {
-        "name": "Charge+5",
-      },
+      "Charge+1",
+      "Charge+2",
+      "Charge+4",
+      "Charge+5",
     ],
     "moveSkill": "Fly",
     "name": "Masan001",
@@ -1388,24 +744,12 @@ exports[`loadTeamFromString > loads the purple team correctly 1`] = `
     "raw": "Masan001 - Male - Taurus - 80 - 80 - Archer - Punch Art - Faith Up - Equip Sword - Fly - Heaven's Cloud - Crystal Shield - Flash Hat - Brigandine - N-Kai Armlet - Charge+1, Charge+2, Charge+4, Charge+5 - Spin Fist, Pummel, Wave Fist, Secret Fist, Purification, Revive",
     "reactSkill": "Faith Up",
     "subAbilities": [
-      {
-        "name": "Spin Fist",
-      },
-      {
-        "name": "Pummel",
-      },
-      {
-        "name": "Wave Fist",
-      },
-      {
-        "name": "Secret Fist",
-      },
-      {
-        "name": "Purification",
-      },
-      {
-        "name": "Revive",
-      },
+      "Spin Fist",
+      "Pummel",
+      "Wave Fist",
+      "Secret Fist",
+      "Purification",
+      "Revive",
     ],
     "subSkill": "Punch Art",
     "supportSkill": "Equip Sword",
@@ -1475,42 +819,18 @@ exports[`loadTeamFromString > loads the red team correctly 1`] = `
     "brave": "65",
     "class": "Priest",
     "equipment": [
-      {
-        "name": "Oak Staff",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Thief Hat",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Leather Vest",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Dracula Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Oak Staff",
+      "Thief Hat",
+      "Leather Vest",
+      "Dracula Mantle",
     ],
     "faith": "68",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Cure 2",
-      },
-      {
-        "name": "Raise",
-      },
-      {
-        "name": "Regen",
-      },
-      {
-        "name": "Esuna",
-      },
+      "Cure 2",
+      "Raise",
+      "Regen",
+      "Esuna",
     ],
     "moveSkill": "Jump+3",
     "name": "Cyuub",
@@ -1518,18 +838,10 @@ exports[`loadTeamFromString > loads the red team correctly 1`] = `
     "raw": "Cyuub - Male - Gemini - 65 - 68 - Priest - Time Magic - Absorb Used MP - Beastmaster - Jump+3 - Oak Staff - Thief Hat - Leather Vest - Dracula Mantle - Cure 2, Raise, Regen, Esuna - Slow 2, Stop, Stabilize Time, Galaxy Stop",
     "reactSkill": "Absorb Used MP",
     "subAbilities": [
-      {
-        "name": "Slow 2",
-      },
-      {
-        "name": "Stop",
-      },
-      {
-        "name": "Stabilize Time",
-      },
-      {
-        "name": "Galaxy Stop",
-      },
+      "Slow 2",
+      "Stop",
+      "Stabilize Time",
+      "Galaxy Stop",
     ],
     "subSkill": "Time Magic",
     "supportSkill": "Beastmaster",
@@ -1563,36 +875,16 @@ exports[`loadTeamFromString > loads the white team correctly 1`] = `
     "brave": "63",
     "class": "Lancer",
     "equipment": [
-      {
-        "name": "Dragon Whisker",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Barbuta",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Wizard Robe",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Elf Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Dragon Whisker",
+      "Barbuta",
+      "Wizard Robe",
+      "Elf Mantle",
     ],
     "faith": "53",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Level Jump8",
-      },
-      {
-        "name": "Vertical Jump8",
-      },
+      "Level Jump8",
+      "Vertical Jump8",
     ],
     "moveSkill": "Levitate",
     "name": "AniZero",
@@ -1600,21 +892,11 @@ exports[`loadTeamFromString > loads the white team correctly 1`] = `
     "raw": "AniZero - Male - Gemini - 63 - 53 - Lancer - Summon Magic - Critical Quick - Doublehand - Levitate - Dragon Whisker - Barbuta - Wizard Robe - Elf Mantle - Level Jump8, Vertical Jump8 - Moogle, Carbunkle, Bahamut, Salamander, Fairy",
     "reactSkill": "Critical Quick",
     "subAbilities": [
-      {
-        "name": "Moogle",
-      },
-      {
-        "name": "Carbunkle",
-      },
-      {
-        "name": "Bahamut",
-      },
-      {
-        "name": "Salamander",
-      },
-      {
-        "name": "Fairy",
-      },
+      "Moogle",
+      "Carbunkle",
+      "Bahamut",
+      "Salamander",
+      "Fairy",
     ],
     "subSkill": "Summon Magic",
     "supportSkill": "Doublehand",
@@ -1625,39 +907,17 @@ exports[`loadTeamFromString > loads the white team correctly 1`] = `
     "brave": "72",
     "class": "Bard",
     "equipment": [
-      {
-        "name": "Flame Whip",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Headgear",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Brigandine",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Reflect Ring",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Flame Whip",
+      "Headgear",
+      "Brigandine",
+      "Reflect Ring",
     ],
     "faith": "47",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Cheer Song",
-      },
-      {
-        "name": "Battle Song",
-      },
-      {
-        "name": "Hydra Pit",
-      },
+      "Cheer Song",
+      "Battle Song",
+      "Hydra Pit",
     ],
     "moveSkill": "Ignore Height",
     "name": "Glennfk",
@@ -1665,15 +925,9 @@ exports[`loadTeamFromString > loads the white team correctly 1`] = `
     "raw": "Glennfk - Male - Virgo - 72 - 47 - Bard - Throw - Critical Quick - Equip Axe - Ignore Height - Flame Whip - Headgear - Brigandine - Reflect Ring - Cheer Song, Battle Song, Hydra Pit - Hammer, Staff, Spear",
     "reactSkill": "Critical Quick",
     "subAbilities": [
-      {
-        "name": "Hammer",
-      },
-      {
-        "name": "Staff",
-      },
-      {
-        "name": "Spear",
-      },
+      "Hammer",
+      "Staff",
+      "Spear",
     ],
     "subSkill": "Throw",
     "supportSkill": "Equip Axe",
@@ -1684,47 +938,19 @@ exports[`loadTeamFromString > loads the white team correctly 1`] = `
     "brave": "69",
     "class": "Archer",
     "equipment": [
-      {
-        "name": "Hunting Bow",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Diamond Shield",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Feather Hat",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Clothes",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Small Mantle",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Hunting Bow",
+      "Diamond Shield",
+      "Feather Hat",
+      "Clothes",
+      "Small Mantle",
     ],
     "faith": "42",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Charge+1",
-      },
-      {
-        "name": "Charge+2",
-      },
-      {
-        "name": "Charge+7",
-      },
-      {
-        "name": "Charge+10",
-      },
+      "Charge+1",
+      "Charge+2",
+      "Charge+7",
+      "Charge+10",
     ],
     "moveSkill": "Waterwalking",
     "name": "Alaylle",
@@ -1732,24 +958,12 @@ exports[`loadTeamFromString > loads the white team correctly 1`] = `
     "raw": "Alaylle - Male - Scorpio - 69 - 42 - Archer - Talk Skill - Mana Shield - Monster Talk - Waterwalking - Hunting Bow - Diamond Shield - Feather Hat - Clothes - Small Mantle - Charge+1, Charge+2, Charge+7, Charge+10 - Invitation, Threaten, Solution, Negotiate, Refute, Rehabilitate",
     "reactSkill": "Mana Shield",
     "subAbilities": [
-      {
-        "name": "Invitation",
-      },
-      {
-        "name": "Threaten",
-      },
-      {
-        "name": "Solution",
-      },
-      {
-        "name": "Negotiate",
-      },
-      {
-        "name": "Refute",
-      },
-      {
-        "name": "Rehabilitate",
-      },
+      "Invitation",
+      "Threaten",
+      "Solution",
+      "Negotiate",
+      "Refute",
+      "Rehabilitate",
     ],
     "subSkill": "Talk Skill",
     "supportSkill": "Monster Talk",
@@ -1765,39 +979,17 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "brave": "38",
     "class": "Squire",
     "equipment": [
-      {
-        "name": "Air Knife",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Black Hood",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Black Robe",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Sprint Shoes",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Air Knife",
+      "Black Hood",
+      "Black Robe",
+      "Sprint Shoes",
     ],
     "faith": "65",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Throw Stone",
-      },
-      {
-        "name": "Heal",
-      },
-      {
-        "name": "Tickle",
-      },
+      "Throw Stone",
+      "Heal",
+      "Tickle",
     ],
     "moveSkill": "Jump+2",
     "name": "Oknamo",
@@ -1805,24 +997,12 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "raw": "Oknamo - Female - Serpentarius - 38 - 65 - Squire - Elemental - Dragon Spirit - Beastmaster - Jump+2 - Air Knife - Black Hood - Black Robe - Sprint Shoes - Throw Stone, Heal, Tickle - Pitfall, Local Quake, Static Shock, Quicksand, Blizzard, Lava Ball",
     "reactSkill": "Dragon Spirit",
     "subAbilities": [
-      {
-        "name": "Pitfall",
-      },
-      {
-        "name": "Local Quake",
-      },
-      {
-        "name": "Static Shock",
-      },
-      {
-        "name": "Quicksand",
-      },
-      {
-        "name": "Blizzard",
-      },
-      {
-        "name": "Lava Ball",
-      },
+      "Pitfall",
+      "Local Quake",
+      "Static Shock",
+      "Quicksand",
+      "Blizzard",
+      "Lava Ball",
     ],
     "subSkill": "Elemental",
     "supportSkill": "Beastmaster",
@@ -1833,36 +1013,16 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "brave": "43",
     "class": "Samurai",
     "equipment": [
-      {
-        "name": "Sleep Sword",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Diamond Helmet",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Wizard Robe",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Bracer",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Sleep Sword",
+      "Diamond Helmet",
+      "Wizard Robe",
+      "Bracer",
     ],
     "faith": "48",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Asura",
-      },
-      {
-        "name": "Muramasa",
-      },
+      "Asura",
+      "Muramasa",
     ],
     "moveSkill": "Retreat",
     "name": "AStatue",
@@ -1870,15 +1030,9 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "raw": "AStatue - Female - Aquarius - 43 - 48 - Samurai - Summon Magic - Abandon - Equip Sword - Retreat - Sleep Sword - Diamond Helmet - Wizard Robe - Bracer - Asura, Muramasa - Moogle, Ramuh, Bahamut",
     "reactSkill": "Abandon",
     "subAbilities": [
-      {
-        "name": "Moogle",
-      },
-      {
-        "name": "Ramuh",
-      },
-      {
-        "name": "Bahamut",
-      },
+      "Moogle",
+      "Ramuh",
+      "Bahamut",
     ],
     "subSkill": "Summon Magic",
     "supportSkill": "Equip Sword",
@@ -1889,44 +1043,18 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "brave": "61",
     "class": "Ninja",
     "equipment": [
-      {
-        "name": "Orichalcum",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Iga Knife",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Thief Hat",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Leather Outfit",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "N-Kai Armlet",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Orichalcum",
+      "Iga Knife",
+      "Thief Hat",
+      "Leather Outfit",
+      "N-Kai Armlet",
     ],
     "faith": "41",
     "gender": "Female",
     "mainAbilities": [
-      {
-        "name": "Shuriken",
-      },
-      {
-        "name": "Bomb",
-      },
-      {
-        "name": "Sword",
-      },
+      "Shuriken",
+      "Bomb",
+      "Sword",
     ],
     "moveSkill": "Lava Walking",
     "name": "Yayifications",
@@ -1934,24 +1062,12 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "raw": "Yayifications - Female - Scorpio - 61 - 41 - Ninja - Summon Magic - Counter - Concentrate - Lava Walking - Orichalcum - Iga Knife - Thief Hat - Leather Outfit - N-Kai Armlet - Shuriken, Bomb, Sword - Moogle, Ramuh, Titan, Golem, Bahamut, Leviathan",
     "reactSkill": "Counter",
     "subAbilities": [
-      {
-        "name": "Moogle",
-      },
-      {
-        "name": "Ramuh",
-      },
-      {
-        "name": "Titan",
-      },
-      {
-        "name": "Golem",
-      },
-      {
-        "name": "Bahamut",
-      },
-      {
-        "name": "Leviathan",
-      },
+      "Moogle",
+      "Ramuh",
+      "Titan",
+      "Golem",
+      "Bahamut",
+      "Leviathan",
     ],
     "subSkill": "Summon Magic",
     "supportSkill": "Concentrate",
@@ -1962,42 +1078,18 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "brave": "64",
     "class": "Thief",
     "equipment": [
-      {
-        "name": "Blind Knife",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Genji Helmet",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "Wizard Robe",
-        "slot": "head",
-        "type": "Helmet",
-      },
-      {
-        "name": "N-Kai Armlet",
-        "slot": "head",
-        "type": "Helmet",
-      },
+      "Blind Knife",
+      "Genji Helmet",
+      "Wizard Robe",
+      "N-Kai Armlet",
     ],
     "faith": "63",
     "gender": "Male",
     "mainAbilities": [
-      {
-        "name": "Gil Taking",
-      },
-      {
-        "name": "Steal Heart",
-      },
-      {
-        "name": "Arm Aim",
-      },
-      {
-        "name": "Leg Aim",
-      },
+      "Gil Taking",
+      "Steal Heart",
+      "Arm Aim",
+      "Leg Aim",
     ],
     "moveSkill": "Jump+1",
     "name": "Brojimbo",
@@ -2005,21 +1097,11 @@ exports[`loadTeamFromString > loads the yellow team correctly 1`] = `
     "raw": "Brojimbo - Male - Virgo - 64 - 63 - Thief - Yin Yang Magic - Critical Quick - Equip Armor - Jump+1 - Blind Knife - Genji Helmet - Wizard Robe - N-Kai Armlet - Gil Taking, Steal Heart, Arm Aim, Leg Aim - Blind, Poison, Blind Rage, Foxbird, Dispel Magic",
     "reactSkill": "Critical Quick",
     "subAbilities": [
-      {
-        "name": "Blind",
-      },
-      {
-        "name": "Poison",
-      },
-      {
-        "name": "Blind Rage",
-      },
-      {
-        "name": "Foxbird",
-      },
-      {
-        "name": "Dispel Magic",
-      },
+      "Blind",
+      "Poison",
+      "Blind Rage",
+      "Foxbird",
+      "Dispel Magic",
     ],
     "subSkill": "Yin Yang Magic",
     "supportSkill": "Equip Armor",

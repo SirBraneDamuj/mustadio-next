@@ -26,22 +26,9 @@ function unitForTokens(tokens: string[]): Omit<Unit, "teamName" | "order"> {
     reactSkill: unitTokens[7],
     supportSkill: unitTokens[8],
     moveSkill: unitTokens[9],
-    mainAbilities: !monster
-      ? mainAbilities.map((abilityName) => ({
-          name: abilityName,
-        }))
-      : [],
-    subAbilities:
-      !monster && !mime
-        ? subAbilities.map((abilityName) => ({
-            name: abilityName,
-          }))
-        : [],
-    equipment: equipment.map((equipName) => ({
-      name: equipName,
-      slot: "head", // TODO: actually get these
-      type: "Helmet", // TODO: actually get these
-    })),
+    mainAbilities: !monster ? mainAbilities : [],
+    subAbilities: !monster && !mime ? subAbilities : [],
+    equipment: equipment,
     raw: unitTokens.join(" - "),
   };
 }
