@@ -1,7 +1,7 @@
-import { describe, it, expect } from "vitest";
-import { parseStatuses } from "./statuses-parser";
 import { promises as fs } from "fs";
 import path from "path";
+import { describe, expect, it } from "vitest";
+import { parseStatuses } from "./statuses-parser";
 
 describe("parseStatuses", () => {
   it("parses infostatus.txt correctly (snapshot)", async () => {
