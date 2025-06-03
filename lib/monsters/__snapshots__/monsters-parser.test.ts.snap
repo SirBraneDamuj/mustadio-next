@@ -1,0 +1,503 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parseMonsters > parses Monsters.txt and MonsterSkills.txt correctly (snapshot) 1`] = `
+{
+  "Ahriman": {
+    "name": "Ahriman",
+    "skills": [
+      "Wing Attack",
+      "Look of Devil",
+      "Look of Fright",
+      "Doom*",
+    ],
+  },
+  "Apanda": {
+    "name": "Apanda",
+    "skills": [
+      "Bio Tenebris",
+      "Bio Venenum",
+      "Bio Oleum",
+      "Bio Ranae",
+      "Bio Sanctus",
+      "Bio Silentium",
+      "Bio Lapis",
+      "Bio Immortuos",
+      "Bio Mortem",
+      "Bio Insanis",
+    ],
+  },
+  "Archaic Demon": {
+    "name": "Archaic Demon",
+    "skills": [
+      "Lifebreak",
+      "Dark Holy",
+      "Giga Flare",
+      "Empower",
+      "Despair",
+      "Despair 2",
+    ],
+  },
+  "Behemoth": {
+    "name": "Behemoth",
+    "skills": [
+      "Stab Up",
+      "Sudden Cry",
+      "Giga Flare*",
+    ],
+  },
+  "Black Chocobo": {
+    "name": "Black Chocobo",
+    "skills": [
+      "Choco Attack",
+      "Choco Ball",
+      "Choco Esuna",
+      "Choco Meteor*",
+    ],
+  },
+  "Black Goblin": {
+    "name": "Black Goblin",
+    "skills": [
+      "Tackle",
+      "Turn Punch",
+      "Goblin Punch",
+      "Mutilate*",
+    ],
+  },
+  "Blue Dragon": {
+    "name": "Blue Dragon",
+    "skills": [
+      "Dash",
+      "Ice Breath",
+      "Tail Swing",
+      "Fire Breath*",
+    ],
+  },
+  "Bomb": {
+    "name": "Bomb",
+    "skills": [
+      "Bite",
+      "Self Destruct",
+      "Flame Attack",
+      "Spark*",
+    ],
+  },
+  "Bull Demon": {
+    "name": "Bull Demon",
+    "skills": [
+      "Shake Off",
+      "Wave Around",
+      "Blow Fire*",
+    ],
+  },
+  "Byblos": {
+    "name": "Byblos",
+    "skills": [
+      "Energize",
+      "Parasite",
+      "Vengeance",
+      "Manaburn",
+      "Chicken",
+    ],
+  },
+  "Chocobo": {
+    "name": "Chocobo",
+    "skills": [
+      "Choco Attack",
+      "Choco Cure",
+      "Choco Esuna",
+      "Choco Ball*",
+    ],
+  },
+  "Cockatrice": {
+    "name": "Cockatrice",
+    "skills": [
+      "Scratch Up",
+      "Beak",
+      "Feather Bomb",
+      "Peck*",
+    ],
+  },
+  "Coeurl": {
+    "name": "Coeurl",
+    "skills": [
+      "Scratch",
+      "Cat Kick",
+      "Blaster",
+      "Poison Nail*",
+    ],
+  },
+  "Dark Behemoth": {
+    "name": "Dark Behemoth",
+    "skills": [
+      "Stab Up",
+      "Sudden Cry",
+      "Ulmaguest*",
+    ],
+  },
+  "Dragon": {
+    "name": "Dragon",
+    "skills": [
+      "Dash",
+      "Thunder Breath",
+      "Tail Swing",
+      "Ice Breath*",
+    ],
+  },
+  "Draugr": {
+    "name": "Draugr",
+    "skills": [
+      "Knife Hand",
+      "Aqua Soul",
+      "Ice Soul",
+      "Wind Soul*",
+    ],
+  },
+  "Dryad": {
+    "name": "Dryad",
+    "skills": [
+      "Leaf Dance",
+      "Protect Spirit",
+      "Calm Spirit",
+      "Life Spirit*",
+    ],
+  },
+  "Explosive": {
+    "name": "Explosive",
+    "skills": [
+      "Bite",
+      "Self Destruct",
+      "Spark",
+      "Small Bomb*",
+    ],
+  },
+  "Floating Eye": {
+    "name": "Floating Eye",
+    "skills": [
+      "Wing Attack",
+      "Look of Fright",
+      "Beam",
+      "Look of Devil*",
+    ],
+  },
+  "Ghost": {
+    "name": "Ghost",
+    "skills": [
+      "Throw Spirit",
+      "Grease Touch",
+      "Drain Touch",
+      "Zombie Touch*",
+    ],
+  },
+  "Ghoul": {
+    "name": "Ghoul",
+    "skills": [
+      "Throw Spirit",
+      "Sleep Touch",
+      "Grease Touch*",
+    ],
+  },
+  "Gobbledeguck": {
+    "name": "Gobbledeguck",
+    "skills": [
+      "Tackle",
+      "Eye Gouge",
+      "Mutilate",
+      "Goblin Punch*",
+    ],
+  },
+  "Goblin": {
+    "name": "Goblin",
+    "skills": [
+      "Tackle",
+      "Eye Gouge",
+      "Goblin Punch",
+      "Turn Punch*",
+    ],
+  },
+  "Great Malboro": {
+    "name": "Great Malboro",
+    "skills": [
+      "Tendrils",
+      "Bad Breath",
+      "Moldball Virus",
+      "Goo*",
+    ],
+  },
+  "Grenade": {
+    "name": "Grenade",
+    "skills": [
+      "Bite",
+      "Self Destruct",
+      "Small Bomb",
+      "Flame Attack*",
+    ],
+  },
+  "Holy Dragon": {
+    "name": "Holy Dragon",
+    "skills": [
+      "Holy Breath",
+      "Fire Breath",
+      "Ice Breath",
+      "Thunder Breath",
+    ],
+  },
+  "Hydra": {
+    "name": "Hydra",
+    "skills": [
+      "Triple Attack",
+      "Triple Flame",
+      "Triple Thunder*",
+    ],
+  },
+  "Iron Hawk": {
+    "name": "Iron Hawk",
+    "skills": [
+      "Scratch Up",
+      "Peck",
+      "Shine Lover",
+      "Feather Bomb*",
+    ],
+  },
+  "Juravis": {
+    "name": "Juravis",
+    "skills": [
+      "Scratch Up",
+      "Feather Bomb",
+      "Shine Lover*",
+    ],
+  },
+  "King Behemoth": {
+    "name": "King Behemoth",
+    "skills": [
+      "Stab Up",
+      "Sudden Cry",
+      "Hurricane*",
+    ],
+  },
+  "Malboro": {
+    "name": "Malboro",
+    "skills": [
+      "Tendrils",
+      "Lick",
+      "Noxious Gas",
+      "Bad Breath*",
+    ],
+  },
+  "Mindflayer": {
+    "name": "Mindflayer",
+    "skills": [
+      "Tentacle",
+      "Black Ink",
+      "Mind Blast",
+      "Level Blast*",
+    ],
+  },
+  "Minotaur": {
+    "name": "Minotaur",
+    "skills": [
+      "Shake Off",
+      "Blow Fire",
+      "Gather Power*",
+    ],
+  },
+  "Ochu": {
+    "name": "Ochu",
+    "skills": [
+      "Tendrils",
+      "Goo",
+      "Lick",
+      "Noxious Gas*",
+    ],
+  },
+  "Pisco Demon": {
+    "name": "Pisco Demon",
+    "skills": [
+      "Tentacle",
+      "Black Ink",
+      "Level Blast",
+      "Odd Soundwave*",
+    ],
+  },
+  "Plague": {
+    "name": "Plague",
+    "skills": [
+      "Wing Attack",
+      "Look of Devil",
+      "Doom",
+      "Beam*",
+    ],
+  },
+  "Porky": {
+    "name": "Porky",
+    "skills": [
+      "Straight Dash",
+      "Toot",
+      "Bequeath Bacon",
+      "Snort*",
+    ],
+  },
+  "Reaper": {
+    "name": "Reaper",
+    "skills": [
+      "Knife Hand",
+      "Wind Soul",
+      "Thunder Soul",
+      "Ice Soul*",
+    ],
+  },
+  "Red Chocobo": {
+    "name": "Red Chocobo",
+    "skills": [
+      "Choco Attack",
+      "Choco Meteor",
+      "Choco Ball",
+      "Choco Cure*",
+    ],
+  },
+  "Red Dragon": {
+    "name": "Red Dragon",
+    "skills": [
+      "Dash",
+      "Fire Breath",
+      "Tail Swing",
+      "Thunder Breath*",
+    ],
+  },
+  "Red Panther": {
+    "name": "Red Panther",
+    "skills": [
+      "Scratch",
+      "Poison Nail",
+      "Cat Kick",
+      "Accumulate*",
+    ],
+  },
+  "Revenant": {
+    "name": "Revenant",
+    "skills": [
+      "Throw Spirit",
+      "Zombie Touch",
+      "Drain Touch",
+      "Sleep Touch*",
+    ],
+  },
+  "Sekhret": {
+    "name": "Sekhret",
+    "skills": [
+      "Shake Off",
+      "Mimic Titan",
+      "Gather Power",
+      "Blow Fire*",
+    ],
+  },
+  "Serpentarius": {
+    "name": "Serpentarius",
+    "skills": [
+      "Snake Carrier",
+      "Toxic Frog",
+      "Midgar Swarm",
+      "Scream",
+    ],
+  },
+  "Skeleton": {
+    "name": "Skeleton",
+    "skills": [
+      "Knife Hand",
+      "Thunder Soul",
+      "Ice Soul",
+      "Aqua Soul*",
+    ],
+  },
+  "Squidraken": {
+    "name": "Squidraken",
+    "skills": [
+      "Tentacle",
+      "Black Ink",
+      "Odd Soundwave",
+      "Mind Blast*",
+    ],
+  },
+  "Steel Giant": {
+    "name": "Steel Giant",
+    "skills": [
+      "Destroy",
+      "Compress",
+      "Dispose",
+      "Repair",
+    ],
+  },
+  "Swine": {
+    "name": "Swine",
+    "skills": [
+      "Straight Dash",
+      "Oink",
+      "Bequeath Bacon",
+      "Toot*",
+    ],
+  },
+  "Taiju": {
+    "name": "Taiju",
+    "skills": [
+      "Leaf Dance",
+      "Life Spirit",
+      "Magic Spirit",
+      "Magic Barrier*",
+    ],
+  },
+  "Tiamat": {
+    "name": "Tiamat",
+    "skills": [
+      "Triple Attack",
+      "Triple Thunder",
+      "Triple Breath",
+      "Dark Whisper*",
+    ],
+  },
+  "Trent": {
+    "name": "Trent",
+    "skills": [
+      "Leaf Dance",
+      "Life Spirit",
+      "Protect Spirit",
+      "Calm Spirit*",
+    ],
+  },
+  "Ultima Demon": {
+    "name": "Ultima Demon",
+    "skills": [
+      "Nanoflare",
+      "Dark Holy",
+      "Ultima",
+      "Hurricane",
+      "Ulmaguest",
+      "Empower",
+    ],
+  },
+  "Vampire": {
+    "name": "Vampire",
+    "skills": [
+      "Scratch",
+      "Blaster",
+      "Blood Suck",
+      "Cat Kick*",
+    ],
+  },
+  "Wild Boar": {
+    "name": "Wild Boar",
+    "skills": [
+      "Straight Dash",
+      "Snort",
+      "Bequeath Bacon",
+      "Oink*",
+    ],
+  },
+  "Wyvern": {
+    "name": "Wyvern",
+    "skills": [
+      "Triple Attack",
+      "Noxious Gas",
+      "Triple Breath*",
+    ],
+  },
+}
+`;

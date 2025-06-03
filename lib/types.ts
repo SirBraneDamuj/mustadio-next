@@ -290,3 +290,10 @@ export type MonsterGenderedClass = {
 };
 
 export type UnitClass = HumanGenderedClass | MonsterGenderedClass;
+
+export type MonsterSkills = {
+  [monsterName: string]: {
+    name: string;
+    skills: string[];
+  };
+};
