@@ -304,3 +304,10 @@ export type Statuses = {
     info: string;
   };
 };
+
+export type Zodiacs = {
+  [zodiacName: string]: {
+    name: string;
+    info: string;
+  };
+};

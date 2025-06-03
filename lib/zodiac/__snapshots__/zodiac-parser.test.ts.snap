@@ -1,0 +1,70 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parseZodiacs > parses zodiachelp.txt correctly (snapshot) 1`] = `
+{
+  "Aquarius": {
+    "info": "Best/Worst - Leo; Good - Gemini, Libra; Bad - Taurus, Scorpio
+",
+    "name": "Aquarius",
+  },
+  "Aries": {
+    "info": "Best/Worst - Libra; Good - Sagittarius, Leo; Bad - Cancer, Capricorn
+",
+    "name": "Aries",
+  },
+  "Cancer": {
+    "info": "Best/Worst - Capricorn; Good - Scorpio, Leo; Bad - Libra, Aries
+",
+    "name": "Cancer",
+  },
+  "Capricorn": {
+    "info": "Best/Worst - Cancer; Good - Taurus, Virgo; Bad - Libra, Aries
+",
+    "name": "Capricorn",
+  },
+  "Gemini": {
+    "info": "Best/Worst - Sagittarius; Good - Libra, Aquarius; Bad - Virgo, Pisces
+",
+    "name": "Gemini",
+  },
+  "Leo": {
+    "info": "Best/Worst - Aquarius; Good - Sagittarius, Aries; Bad - Scorpio, Taurus
+",
+    "name": "Leo",
+  },
+  "Libra": {
+    "info": "Best/Worst - Aries; Good - Aquarius, Gemini; Bad - Capricorn, Cancer
+",
+    "name": "Libra",
+  },
+  "Pisces": {
+    "info": "Best/Worst - Virgo; Good - Cancer, Scorpio; Bad - Sagittarius, Gemini
+",
+    "name": "Pisces",
+  },
+  "Sagittarius": {
+    "info": "Best/Worst - Gemini; Good - Aries, Leo; Bad - Pisces, Virgo
+",
+    "name": "Sagittarius",
+  },
+  "Scorpio": {
+    "info": "Best/Worst - Taurus; Good - Pisces, Cancer; Bad - Aquarius, Leo
+",
+    "name": "Scorpio",
+  },
+  "Serpentarius": {
+    "info": "Neutral to all",
+    "name": "Serpentarius",
+  },
+  "Taurus": {
+    "info": "Best/Worst - Scorpio; Good - Virgo, Capricorn; Bad - Leo, Aquarius
+",
+    "name": "Taurus",
+  },
+  "Virgo": {
+    "info": "Best/Worst - Pisces; Good - Capricorn, Taurus; Bad - Sagittarius, Gemini
+",
+    "name": "Virgo",
+  },
+}
+`;
