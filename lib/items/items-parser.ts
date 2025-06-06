@@ -1,13 +1,13 @@
 import {
-  EquipmentSlot,
-  EquipmentType,
   EquipmentTypeSchema,
+  Item,
+  Items,
   SLOTS_FOR_EQUIPMENT_TYPES,
 } from "../types";
 import { toNumber } from "../util";
 
 const theBigRegex =
-  /^(?<itemName>[A-Z\d][\w\d \-']+): (?:(?<wp>\d+) WP, )?(?:(?<healWp>\d+) WP \(heal\), )?(?:(?<absorbWp>\d+) WP \(absorb\), )?(?:(?<range>\d+) (?:range|range \(\w+\)), )?(?:(?<evadePercent>\d+%?) evade, )?(?:(?<physEvadePercent>\d+%) physical evade, )?(?:(?<magicEvadePercent>\d+%) magic evade, )?(?:\+(?<hp>\d+) HP, )?(?:\+(?<mp>\d+) MP, )?(?:(?<itemType>[A-Z][\w -]+(?: \((?:\w|\s)+\))?). ?)(?:Element: (?<element>[A-Z]\w+)\. ?)?(?:Effect: (?<effect>.*))?$/;
+  /^(?<itemName>[A-Z\d][\w\d \-']+): (?:(?<wp>\d+) WP, )?(?:(?<healWp>\d+) WP \(heal(?:ing)?\), )?(?:(?<absorbWp>\d+) WP \(absorb(?:ing)?\), )?(?:(?<range>\d+) (?:range|range \(\w+\)), )?(?:(?<evadePercent>\d+%?) evade, )?(?:(?<physEvadePercent>\d+%) physical evade, )?(?:(?<magicEvadePercent>\d+%) magic evade, )?(?:\+(?<hp>\d+) HP, )?(?:\+(?<mp>\d+) MP, )?(?:(?<itemType>[A-Z][\w -]+(?: \((?:\w|\s)+\))?). ?)(?:Element: (?<element>[A-Z]\w+)\. ?)?(?:Effect: (?<effect>.*))?$/;
 const statsRegex =
   /[^+]*(?:(?<pa>\+\d+) PA(?:, |\.|;))?(?:(?<ma>\+\d+) MA(?:, |\.|;))?(?:(?<speed>\+\d+) Speed(?:, |\.|;))?(?:(?<move>\+\d+) Move(?:, |\.|;))?(?:(?<jump>\+\d+) Jump(?:, |\.|;))?/;
 const initialStatusRegex = /Initial (?<initialStatuses>[A-Z][^;.]+)(?:; |\.)/;
@@ -28,32 +28,6 @@ const getPermStatuses = (effect: string) => {
     return match.groups.permStatuses.split(", ");
   }
   return [];
-};
-
-type Item = {
-  name: string;
-  type: EquipmentType;
-  slot: EquipmentSlot;
-  info: string;
-  stats: {
-    wp?: number;
-    healWp?: number;
-    absorbWp?: number;
-    range?: number;
-    evadePercent?: number;
-    physEvadePercent?: number;
-    magicEvadePercent?: number;
-    hp?: number;
-    mp?: number;
-    element?: string;
-    speed?: number;
-    move?: number;
-    jump?: number;
-    pa?: number;
-    ma?: number;
-    initialStatuses: string[];
-    permStatuses: string[];
-  };
 };
 
 function parseDumpLine(itemLine: string): Item | undefined {
@@ -127,13 +101,13 @@ function parseDumpLine(itemLine: string): Item | undefined {
   };
 }
 
-export function parseItemsDump(dump: string): Item[] {
+export function parseItemsDump(dump: string): Items {
   const lines = dump.split("\n").map((line) => line.trim());
-  const items: Item[] = [];
+  const items: Items = {};
   for (const line of lines) {
     const item = parseDumpLine(line);
     if (item) {
-      items.push(item);
+      items[item.name] = item;
     }
   }
   return items;

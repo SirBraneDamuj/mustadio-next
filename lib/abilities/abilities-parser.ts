@@ -1,4 +1,4 @@
-import { AbilityTypeSchema, UnitAbility } from "../types";
+import { AbilityTypeSchema, UnitAbilities, UnitAbility } from "../types";
 
 const abilityTypesFromFile = ["Reaction", "Support", "Movement"] as const;
 const fileAbilityTypeMapping = {
@@ -48,11 +48,10 @@ function parseAbilityLine(abilityLine: string): UnitAbility {
   };
 }
 
-export function parseAbilities(
-  abilitiesHelp: string
-): Record<string, UnitAbility> {
+export function parseAbilities(abilitiesHelp: string): UnitAbilities {
+  console.log("parsing abilities");
   const lines = abilitiesHelp.split(/\r?\n/).filter(Boolean);
-  const abilities: Record<string, UnitAbility> = {};
+  const abilities: UnitAbilities = {};
 
   for (const line of lines) {
     const ability = parseAbilityLine(line);

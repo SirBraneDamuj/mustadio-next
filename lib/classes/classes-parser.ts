@@ -1,4 +1,4 @@
-import { GenderedClass, GenderSchema, UnitClass } from "../types";
+import { GenderedClass, GenderSchema, UnitClass, UnitClasses } from "../types";
 import { groupBy, parseIntOrThrow } from "../util";
 
 const classAndGenderRegex = /^(?:([A-Z]\w+)|(Floating Eye)) ?(Male|Female)?'s/;
@@ -53,7 +53,7 @@ function parseClassLine(classLine: string): GenderedClass {
   };
 }
 
-export function parseClassHelp(classHelp: string): Record<string, UnitClass> {
+export function parseClassHelp(classHelp: string): UnitClasses {
   const lines = classHelp.split(/\r?\n/).filter(Boolean);
   const classGenders: GenderedClass[] = lines.map(parseClassLine);
   const grouped = groupBy(classGenders, (c) => c.name);

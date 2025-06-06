@@ -243,6 +243,10 @@ export type UnitAbility = {
   info: string;
 };
 
+export type UnitAbilities = {
+  [abilityName: string]: UnitAbility;
+};
+
 // UnitEquipment model
 export type UnitEquipment = {
   name: string;
@@ -291,11 +295,45 @@ export type MonsterGenderedClass = {
 
 export type UnitClass = HumanGenderedClass | MonsterGenderedClass;
 
+export type UnitClasses = {
+  [className: string]: UnitClass;
+};
+
 export type MonsterSkills = {
   [monsterName: string]: {
     name: string;
     skills: string[];
   };
+};
+
+export type Item = {
+  name: string;
+  type: EquipmentType;
+  slot: EquipmentSlot;
+  info: string;
+  stats: {
+    wp?: number;
+    healWp?: number;
+    absorbWp?: number;
+    range?: number;
+    evadePercent?: number;
+    physEvadePercent?: number;
+    magicEvadePercent?: number;
+    hp?: number;
+    mp?: number;
+    element?: string;
+    speed?: number;
+    move?: number;
+    jump?: number;
+    pa?: number;
+    ma?: number;
+    initialStatuses: string[];
+    permStatuses: string[];
+  };
+};
+
+export type Items = {
+  [itemName: string]: Item;
 };
 
 export type Statuses = {
