@@ -80,7 +80,7 @@ export async function refreshGameData(): Promise<GameData> {
     gameDataLoader("zodiachelp.txt"),
   ]));
 
-  gameData = {
+  return {
     monsterSkills: parseMonsters(monstersDump, monsterSkillsDump),
     classes: parseClassHelp(classesDump),
     abilities: parseAbilities(abilitiesDump),
@@ -88,6 +88,4 @@ export async function refreshGameData(): Promise<GameData> {
     statuses: parseStatuses(statusesDump),
     zodiacs: parseZodiacs(zodiacsDump),
   };
-
-  return gameData;
 }
