@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parseWinnersData > parses winners.txt correctly (snapshot) 1`] = `
+[
+  {
+    "matchNum": 0,
+    "name": "red",
+  },
+  {
+    "matchNum": 1,
+    "name": "green",
+  },
+  {
+    "matchNum": 2,
+    "name": "black",
+  },
+  {
+    "matchNum": 3,
+    "name": "purple",
+  },
+  {
+    "matchNum": 4,
+    "name": "green",
+  },
+  {
+    "matchNum": 5,
+    "name": "black",
+  },
+  {
+    "matchNum": 6,
+    "name": "green",
+  },
+  {
+    "matchNum": 7,
+    "name": "champion",
+  },
+]
+`;

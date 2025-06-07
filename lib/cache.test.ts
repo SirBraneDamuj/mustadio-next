@@ -74,17 +74,13 @@ describe("cache", () => {
     let callCount = 0;
     const getValue = async () => {
       callCount++;
-      console.log(callCount);
       if (callCount === 1) throw new Error("fail" + callCount);
       return "success";
     };
     const cached = cache(getValue, 1000);
 
-    console.log("foo");
     await expect(cached.get()).rejects.toThrowError("fail");
-    console.log("bar");
     const v = await cached.get();
-    console.log("baz");
     expect(v).toBe("success");
     expect(callCount).toBe(2);
   });

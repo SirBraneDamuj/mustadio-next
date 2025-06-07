@@ -1,0 +1,69 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`loadIndexHtml > parses index.html correctly (snapshot) 1`] = `
+{
+  "dumpFiles": [
+    {
+      "name": "BlueSkills.txt",
+      "timestamp": "2020-02-06 19:53",
+    },
+    {
+      "name": "BlueSkillsets.txt",
+      "timestamp": "2020-02-06 19:50",
+    },
+    {
+      "name": "MonsterSkills.txt",
+      "timestamp": "2019-12-10 14:01",
+    },
+    {
+      "name": "Monsters.txt",
+      "timestamp": "2019-12-11 09:28",
+    },
+    {
+      "name": "PrestigeSkills.txt",
+      "timestamp": "2020-02-05 08:28",
+    },
+    {
+      "name": "UserSkills.txt",
+      "timestamp": "2020-01-26 12:46",
+    },
+    {
+      "name": "classhelp.txt",
+      "timestamp": "2020-02-06 16:39",
+    },
+    {
+      "name": "highexp.txt",
+      "timestamp": "2020-02-06 23:59",
+    },
+    {
+      "name": "highscores.txt",
+      "timestamp": "2020-02-06 23:59",
+    },
+    {
+      "name": "infoability.txt",
+      "timestamp": "2020-02-06 11:49",
+    },
+    {
+      "name": "infoitem.txt",
+      "timestamp": "2020-02-06 13:04",
+    },
+    {
+      "name": "infostatus.txt",
+      "timestamp": "2020-02-01 19:02",
+    },
+    {
+      "name": "skillhelp.txt",
+      "timestamp": "2020-01-29 13:38",
+    },
+    {
+      "name": "stats.txt",
+      "timestamp": "2020-02-06 23:59",
+    },
+    {
+      "name": "zodiachelp.txt",
+      "timestamp": "2020-01-08 08:19",
+    },
+  ],
+  "latestTournament": "tournament_1581051562581",
+}
+`;

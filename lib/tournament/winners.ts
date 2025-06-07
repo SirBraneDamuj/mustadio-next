@@ -1,4 +1,4 @@
-import { MATCHUPS, TeamName } from "../types";
+import { MATCHUPS, TeamName, TeamNameSchema, TournamentWinner } from "../types";
 import { modalities } from "../util";
 
 const DEFAULT = ["red", "blue"] as [TeamName, TeamName];
@@ -36,4 +36,20 @@ export function getLatestMatchForTournament(
     );
   }
   return DEFAULT;
+}
+
+export function parseWinnersData(winnersData: string): TournamentWinner[] {
+  let delimiter = "\r\n";
+  if (!winnersData.includes(delimiter)) {
+    delimiter = "\n";
+  }
+  return winnersData
+    .split(delimiter)
+    .filter((s) => s !== "")
+    .map((line, index) => {
+      return {
+        matchNum: index,
+        name: TeamNameSchema.parse(line.trim()),
+      };
+    });
 }

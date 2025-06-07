@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parseMapsData > parses maps.txt correctly (snapshot) 1`] = `
+[
+  {
+    "number": "98",
+    "title": "Gate of Lesalia Castle",
+  },
+  {
+    "number": "115",
+    "title": "Banished Fort",
+  },
+  {
+    "number": "58",
+    "title": "Underground Book Storage Second Floor",
+  },
+  {
+    "number": "102",
+    "title": "Tutorial Bridge",
+  },
+  {
+    "number": "4",
+    "title": "Lesalia Castle",
+  },
+  {
+    "number": "36",
+    "title": "Church Outside of Town",
+  },
+  {
+    "number": "86",
+    "title": "Doguola Pass",
+  },
+  {
+    "number": "47",
+    "title": "Zarghidas Trade City",
+  },
+]
+`;

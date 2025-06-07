@@ -1,6 +1,8 @@
+import { promises as fs } from "fs";
+import path from "path";
 import { describe, expect, it } from "vitest";
 import { TeamName } from "../types";
-import { getLatestMatchForTournament } from "./winners";
+import { getLatestMatchForTournament, parseWinnersData } from "./winners";
 
 describe("getLatestMatchForTournament", () => {
   const subject = (winners: TeamName[]) => getLatestMatchForTournament(winners);
@@ -83,5 +85,18 @@ describe("getLatestMatchForTournament", () => {
         "champion",
       ])
     ).toEqual(["red", "blue"]);
+  });
+});
+
+describe("parseWinnersData", () => {
+  it("parses winners.txt correctly (snapshot)", async () => {
+    const filePath = path.join(
+      __dirname,
+      "../../resources/fftbg_fake/fake_tournament/winner_complete.txt"
+    );
+    const file = await fs.readFile(filePath, "utf-8");
+    const result = parseWinnersData(file);
+
+    expect(result).toMatchSnapshot();
   });
 });

@@ -15,7 +15,7 @@ import {
 } from "./types";
 import { parseZodiacs } from "./zodiac/zodiac-parser";
 
-type GameData = {
+export type GameData = {
   monsterSkills: MonsterSkills;
   classes: UnitClasses;
   abilities: UnitAbilities;
