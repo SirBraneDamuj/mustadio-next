@@ -33,7 +33,7 @@ export function groupBy<T, K extends string | number | symbol>(
   );
 }
 
-export function modalities<T extends string | number | symbol>(
+export function cardinalities<T extends string | number | symbol>(
   items: T[]
 ): Record<T, number> {
   return items.reduce(

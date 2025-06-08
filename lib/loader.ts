@@ -14,6 +14,9 @@ const realGameDataLoader = (baseUrl: string) => async (filename: string) => {
   const url = `${baseUrl}${filename}`;
   console.log(`Loading real game data from: ${url}`);
   const data = await fetch(url);
+  if (data.status === 404) {
+    return "404";
+  }
   return data.text();
 };
 

@@ -31,9 +31,10 @@ export function tournamentLoader({
     const maps = parseMapsData(
       await fftbgGameDataLoader(`/${tournamentId}/maps.txt`)
     );
-    const winners = parseWinnersData(
-      await fftbgGameDataLoader(`/${tournamentId}/winner.txt`)
+    const winnersData = await fftbgGameDataLoader(
+      `/${tournamentId}/winner.txt`
     );
+    const winners = parseWinnersData(winnersData);
     const tournament: Tournament = {
       id: tournamentId,
       teams,
@@ -53,8 +54,17 @@ export function tournamentLoader({
     return loadTournamentById(latestTournament);
   }
 
+  async function refreshWinners(tournamentId: string): Promise<void> {
+    const winnersData = await fftbgGameDataLoader(
+      `/${tournamentId}/winner.txt`
+    );
+    const winners = parseWinnersData(winnersData);
+    await tournamentRepo.updateTournamentWinners(tournamentId, winners);
+  }
+
   return {
     loadTournamentById,
     loadCurrentTournament,
+    refreshWinners,
   };
 }

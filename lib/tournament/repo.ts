@@ -1,5 +1,5 @@
 import getPrismaClient from "@/lib/prisma";
-import { TeamNameSchema, Tournament, Unit } from "../types";
+import { TeamNameSchema, Tournament, TournamentWinner, Unit } from "../types";
 import { pick } from "../util";
 
 export default function tournamentRepo({
@@ -116,8 +116,32 @@ export default function tournamentRepo({
     });
   }
 
+  async function updateTournamentWinners(
+    tournamentId: string,
+    winners: TournamentWinner[]
+  ): Promise<void> {
+    const existingTournament = await getTournamentById(tournamentId);
+    if (!existingTournament) {
+      return;
+    }
+
+    await prisma.tournament.update({
+      where: { id: tournamentId },
+      data: {
+        winners: {
+          deleteMany: {},
+          create: winners.map((winner, index) => ({
+            name: winner.name,
+            matchNum: index,
+          })),
+        },
+      },
+    });
+  }
+
   return {
     getTournamentById,
     insertTournament,
+    updateTournamentWinners,
   };
 }

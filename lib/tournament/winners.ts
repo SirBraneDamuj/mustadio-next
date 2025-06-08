@@ -1,5 +1,5 @@
 import { MATCHUPS, TeamName, TeamNameSchema, TournamentWinner } from "../types";
-import { modalities } from "../util";
+import { cardinalities } from "../util";
 
 const DEFAULT = ["red", "blue"] as [TeamName, TeamName];
 
@@ -13,7 +13,7 @@ export function getLatestMatchForTournament(
   if (latestMatchNum < 4) {
     return MATCHUPS[latestMatchNum][0];
   }
-  const winFrequencies = modalities(winners);
+  const winFrequencies = cardinalities(winners);
   if (latestMatchNum < 6) {
     return (
       MATCHUPS[latestMatchNum].find(([team1, team2]) => {
@@ -39,6 +39,9 @@ export function getLatestMatchForTournament(
 }
 
 export function parseWinnersData(winnersData: string): TournamentWinner[] {
+  if (winnersData === "404") {
+    return [];
+  }
   let delimiter = "\r\n";
   if (!winnersData.includes(delimiter)) {
     delimiter = "\n";

@@ -1,4 +1,5 @@
 "use server";
+export const dynamic = "force-dynamic";
 
 import { container } from "@/lib/app";
 import { CachedFunction } from "@/lib/cache";
