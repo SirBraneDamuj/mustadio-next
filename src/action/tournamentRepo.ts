@@ -1,6 +1,3 @@
-"use server";
-
-import { revalidatePath } from "next/cache";
 import { container } from "../app";
 import { Tournament } from "../types";
 
@@ -23,5 +20,4 @@ export async function refreshTournamentWinners(
 ): Promise<void> {
   const tournamentLoader = container.resolve("tournamentLoader");
   tournamentLoader.refreshWinners(tournamentId);
-  revalidatePath(`/tournament/${tournamentId}`);
 }

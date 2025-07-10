@@ -1,4 +1,4 @@
-import getPrismaClient from "@/lib/prisma";
+import getPrismaClient from "@/src/prisma";
 import { TeamNameSchema, Tournament, TournamentWinner, Unit } from "../types";
 import { pick } from "../util";
 
